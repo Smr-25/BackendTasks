@@ -1,0 +1,9 @@
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/EternaApp/EternaApp/obj/Debug/net8.0/EternaApp.csproj.AssemblyReference.cache
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/EternaApp/EternaApp/obj/Debug/net8.0/EternaApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/EternaApp/EternaApp/obj/Debug/net8.0/EternaApp.AssemblyInfoInputs.cache
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/EternaApp/EternaApp/obj/Debug/net8.0/EternaApp.AssemblyInfo.cs
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/EternaApp/EternaApp/obj/Debug/net8.0/EternaApp.csproj.CoreCompileInputs.cache
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/EternaApp/EternaApp/obj/Debug/net8.0/EternaApp.MvcApplicationPartsAssemblyInfo.cache
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/EternaApp/EternaApp/obj/Debug/net8.0/EternaApp.RazorAssemblyInfo.cache
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/EternaApp/EternaApp/obj/Debug/net8.0/EternaApp.RazorAssemblyInfo.cs
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/EternaApp/EternaApp/obj/Debug/net8.0/EternaApp.sourcelink.json
