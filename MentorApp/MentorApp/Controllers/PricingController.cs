@@ -7,9 +7,10 @@ namespace MentorApp.Controllers;
 
 public class PricingController(MentorDbContext context) : Controller
 {
-
+   
     public async Task<IActionResult> Index()
     {
+        ViewBag.Active = 2;
         var pricingVm = new PricingVm
         {
             Pricings = context.Pricings.ToList(),

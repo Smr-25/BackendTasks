@@ -8,6 +8,7 @@ public class HomeController(MentorDbContext mentorDbContext) : Controller
 {
     public IActionResult Index()
     {
+        ViewBag.Active = 1;
         var slider = mentorDbContext.Sliders.FirstOrDefault();
         HomeVm homeVm = new HomeVm()
         {

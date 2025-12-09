@@ -1,0 +1,94 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\samiraa\\Desktop\\BACKEND\\MentorApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45862C0D-E177-4CD3-8514-D4B32A1C2FF8}|MentorApp\\MentorApp.csproj|c:\\users\\samiraa\\desktop\\backend\\mentorapp\\mentorapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{45862C0D-E177-4CD3-8514-D4B32A1C2FF8}|MentorApp\\MentorApp.csproj|solutionrelative:mentorapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45862C0D-E177-4CD3-8514-D4B32A1C2FF8}|MentorApp\\MentorApp.csproj|c:\\users\\samiraa\\desktop\\backend\\mentorapp\\mentorapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45862C0D-E177-4CD3-8514-D4B32A1C2FF8}|MentorApp\\MentorApp.csproj|solutionrelative:mentorapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45862C0D-E177-4CD3-8514-D4B32A1C2FF8}|MentorApp\\MentorApp.csproj|c:\\users\\samiraa\\desktop\\backend\\mentorapp\\mentorapp\\controllers\\pricingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45862C0D-E177-4CD3-8514-D4B32A1C2FF8}|MentorApp\\MentorApp.csproj|solutionrelative:mentorapp\\controllers\\pricingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\samiraa\\Desktop\\BACKEND\\MentorApp\\global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "global.json",
+              "DocumentMoniker": "C:\\Users\\samiraa\\Desktop\\BACKEND\\MentorApp\\global.json",
+              "RelativeDocumentMoniker": "global.json",
+              "ToolTip": "C:\\Users\\samiraa\\Desktop\\BACKEND\\MentorApp\\global.json",
+              "RelativeToolTip": "global.json",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-04T13:39:15.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\samiraa\\Desktop\\BACKEND\\MentorApp\\MentorApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MentorApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\samiraa\\Desktop\\BACKEND\\MentorApp\\MentorApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MentorApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAYwFkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T13:28:45.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PricingController.cs",
+              "DocumentMoniker": "C:\\Users\\samiraa\\Desktop\\BACKEND\\MentorApp\\MentorApp\\Controllers\\PricingController.cs",
+              "RelativeDocumentMoniker": "MentorApp\\Controllers\\PricingController.cs",
+              "ToolTip": "C:\\Users\\samiraa\\Desktop\\BACKEND\\MentorApp\\MentorApp\\Controllers\\PricingController.cs",
+              "RelativeToolTip": "MentorApp\\Controllers\\PricingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T13:28:09.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\samiraa\\Desktop\\BACKEND\\MentorApp\\MentorApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MentorApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\samiraa\\Desktop\\BACKEND\\MentorApp\\MentorApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MentorApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T13:27:29.326Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

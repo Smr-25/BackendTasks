@@ -6,7 +6,8 @@ namespace Pustok.Models;
 
 public class Book : BaseEntity
 {
-    [Required] public string Name { get; set; }
+    [Required] 
+    public string Name { get; set; }
     public string Description { get; set; }
 
     [Required]
@@ -18,10 +19,10 @@ public class Book : BaseEntity
     public bool InStock { get; set; }
     public bool IsFeatured { get; set; }
     public bool IsNew { get; set; }
-    
+
     public string MainImageUrl { get; set; }
     public string HoverImageUrl { get; set; }
-    
+
     public int AuthorId { get; set; }
     public Author Author { get; set; }
     public List<BookImage> BookImages { get; set; }

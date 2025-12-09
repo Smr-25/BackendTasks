@@ -1,8 +1,6 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Pustok.Data;
-using Pustok.Models;
 using Pustok.ViewModel;
 
 namespace Pustok.Controllers;
