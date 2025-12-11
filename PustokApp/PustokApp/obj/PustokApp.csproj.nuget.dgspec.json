@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\samiraa\\Desktop\\BACKEND\\PustokApp\\PustokApp\\PustokApp.csproj": {}
+    "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/PustokApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\samiraa\\Desktop\\BACKEND\\PustokApp\\PustokApp\\PustokApp.csproj": {
+    "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/PustokApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samiraa\\Desktop\\BACKEND\\PustokApp\\PustokApp\\PustokApp.csproj",
+        "projectUniqueName": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/PustokApp.csproj",
         "projectName": "PustokApp",
-        "projectPath": "C:\\Users\\samiraa\\Desktop\\BACKEND\\PustokApp\\PustokApp\\PustokApp.csproj",
-        "packagesPath": "C:\\Users\\samiraa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samiraa\\Desktop\\BACKEND\\PustokApp\\PustokApp\\obj\\",
+        "projectPath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/PustokApp.csproj",
+        "packagesPath": "/Users/asmrofficialfinder/.nuget/packages/",
+        "outputPath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\samiraa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/asmrofficialfinder/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,13 +37,16 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -85,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.414/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

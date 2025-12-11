@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "J760kG6beG5SGcwC31W1i6SRr9x323qlwKy1bqYludM=",
+  "Hash": "ibXaBjHA/VYzUAHpVkaaUZmQN9xO7glcGFtft2jZjBo=",
   "Source": "PustokApp",
   "BasePath": "_content/PustokApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "PustokApp/wwwroot",
       "Source": "PustokApp",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/obj/Debug/net8.0/scopedcss/bundle/PustokApp.styles.css",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/obj/Debug/net8.0/scopedcss/bundle/PustokApp.styles.css",
       "SourceId": "PustokApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/obj/Debug/net8.0/scopedcss/bundle/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/obj/Debug/net8.0/scopedcss/bundle/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "PustokApp.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/obj/Debug/net8.0/scopedcss/bundle/PustokApp.styles.css"
+      "OriginalItemSpec": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/obj/Debug/net8.0/scopedcss/bundle/PustokApp.styles.css"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/obj/Debug/net8.0/scopedcss/projectbundle/PustokApp.bundle.scp.css",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/obj/Debug/net8.0/scopedcss/projectbundle/PustokApp.bundle.scp.css",
       "SourceId": "PustokApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/obj/Debug/net8.0/scopedcss/projectbundle/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "PustokApp.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/obj/Debug/net8.0/scopedcss/projectbundle/PustokApp.bundle.scp.css"
+      "OriginalItemSpec": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/obj/Debug/net8.0/scopedcss/projectbundle/PustokApp.bundle.scp.css"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/css/main.css",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/css/main.css",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/css/main.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot/assets/css/main.css"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/css/plugins.css",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/css/plugins.css",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/css/plugins.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot/assets/css/plugins.css"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/fonts/fa-brands-400.eot",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/fonts/fa-brands-400.eot",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-brands-400.eot",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot/assets/fonts/fa-brands-400.eot"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/fonts/fa-brands-400.svg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/fonts/fa-brands-400.svg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-brands-400.svg",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot/assets/fonts/fa-brands-400.svg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/fonts/fa-brands-400.ttf",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/fonts/fa-brands-400.ttf",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-brands-400.ttf",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot/assets/fonts/fa-brands-400.ttf"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/fonts/fa-brands-400.woff",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/fonts/fa-brands-400.woff",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-brands-400.woff",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot/assets/fonts/fa-brands-400.woff"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/fonts/fa-brands-400.woff2",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/fonts/fa-brands-400.woff2",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-brands-400.woff2",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot/assets/fonts/fa-brands-400.woff2"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/fonts/fa-brands-400d41d.eot",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/fonts/fa-brands-400d41d.eot",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-brands-400d41d.eot",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot/assets/fonts/fa-brands-400d41d.eot"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/fonts/fa-regular-400.eot",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/fonts/fa-regular-400.eot",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-regular-400.eot",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot/assets/fonts/fa-regular-400.eot"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/fonts/fa-regular-400.svg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/fonts/fa-regular-400.svg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-regular-400.svg",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot/assets/fonts/fa-regular-400.svg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/fonts/fa-regular-400.ttf",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/fonts/fa-regular-400.ttf",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-regular-400.ttf",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot/assets/fonts/fa-regular-400.ttf"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/fonts/fa-regular-400.woff",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/fonts/fa-regular-400.woff",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-regular-400.woff",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot/assets/fonts/fa-regular-400.woff"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/fonts/fa-regular-400.woff2",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/fonts/fa-regular-400.woff2",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-regular-400.woff2",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot/assets/fonts/fa-regular-400.woff2"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/fonts/fa-regular-400d41d.eot",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/fonts/fa-regular-400d41d.eot",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-regular-400d41d.eot",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot/assets/fonts/fa-regular-400d41d.eot"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/fonts/fa-solid-900.eot",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/fonts/fa-solid-900.eot",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-solid-900.eot",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot/assets/fonts/fa-solid-900.eot"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/fonts/fa-solid-900.svg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/fonts/fa-solid-900.svg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-solid-900.svg",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot/assets/fonts/fa-solid-900.svg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/fonts/fa-solid-900.ttf",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/fonts/fa-solid-900.ttf",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-solid-900.ttf",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot/assets/fonts/fa-solid-900.ttf"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/fonts/fa-solid-900.woff",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/fonts/fa-solid-900.woff",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-solid-900.woff",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot/assets/fonts/fa-solid-900.woff"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/fonts/fa-solid-900.woff2",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/fonts/fa-solid-900.woff2",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-solid-900.woff2",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot/assets/fonts/fa-solid-900.woff2"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/fonts/fa-solid-900d41d.eot",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/fonts/fa-solid-900d41d.eot",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-solid-900d41d.eot",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot/assets/fonts/fa-solid-900d41d.eot"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/fonts/Ionicons28b5.eot",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/fonts/Ionicons28b5.eot",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/Ionicons28b5.eot",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot/assets/fonts/Ionicons28b5.eot"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/fonts/Ionicons28b5.svg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/fonts/Ionicons28b5.svg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/Ionicons28b5.svg",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot/assets/fonts/Ionicons28b5.svg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/fonts/Ionicons28b5.ttf",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/fonts/Ionicons28b5.ttf",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/Ionicons28b5.ttf",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot/assets/fonts/Ionicons28b5.ttf"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/fonts/Ionicons28b5.woff",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/fonts/Ionicons28b5.woff",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/Ionicons28b5.woff",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot/assets/fonts/Ionicons28b5.woff"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/fonts/Material-Design-Iconic-Fontd1f1.ttf",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/fonts/Material-Design-Iconic-Fontd1f1.ttf",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/Material-Design-Iconic-Fontd1f1.ttf",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot/assets/fonts/Material-Design-Iconic-Fontd1f1.ttf"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/fonts/Material-Design-Iconic-Fontd1f1.woff",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/fonts/Material-Design-Iconic-Fontd1f1.woff",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/Material-Design-Iconic-Fontd1f1.woff",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot/assets/fonts/Material-Design-Iconic-Fontd1f1.woff"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/fonts/Material-Design-Iconic-Fontd1f1.woff2",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/fonts/Material-Design-Iconic-Fontd1f1.woff2",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/Material-Design-Iconic-Fontd1f1.woff2",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot/assets/fonts/Material-Design-Iconic-Fontd1f1.woff2"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/bg-images/best-seller-bg.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/bg-images/best-seller-bg.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/best-seller-bg.jpg",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/bg-images/best-seller-bg.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/bg-images/home-2-slider-1.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/bg-images/home-2-slider-1.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/home-2-slider-1.jpg",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/bg-images/home-2-slider-1.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/bg-images/home-2-slider-2.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/bg-images/home-2-slider-2.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/home-2-slider-2.jpg",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/bg-images/home-2-slider-2.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/bg-images/home-3-slider-1.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/bg-images/home-3-slider-1.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/home-3-slider-1.jpg",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/bg-images/home-3-slider-1.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/bg-images/home-3-slider-2.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/bg-images/home-3-slider-2.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/home-3-slider-2.jpg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/bg-images/home-3-slider-2.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/bg-images/home-4-slider-1.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/bg-images/home-4-slider-1.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/home-4-slider-1.jpg",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/bg-images/home-4-slider-1.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/bg-images/home-4-slider-2.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/bg-images/home-4-slider-2.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/home-4-slider-2.jpg",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/bg-images/home-4-slider-2.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/bg-images/home-slider-1-ai.png",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/bg-images/home-slider-1-ai.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/home-slider-1-ai.png",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/bg-images/home-slider-1-ai.png"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/bg-images/home-slider-2-ai.png",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/bg-images/home-slider-2-ai.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/home-slider-2-ai.png",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/bg-images/home-slider-2-ai.png"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/bg-images/promo-banner-contained.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/bg-images/promo-banner-contained.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/promo-banner-contained.jpg",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/bg-images/promo-banner-contained.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/bg-images/promo-banner-full.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/bg-images/promo-banner-full.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/promo-banner-full.jpg",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/bg-images/promo-banner-full.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/bg-images/promo-banner-mid.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/bg-images/promo-banner-mid.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/promo-banner-mid.jpg",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/bg-images/promo-banner-mid.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/bg-images/promo-banner-small-with-text.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/bg-images/promo-banner-small-with-text.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/promo-banner-small-with-text.jpg",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/bg-images/promo-banner-small-with-text.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/bg-images/promo-banner-small.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/bg-images/promo-banner-small.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/promo-banner-small.jpg",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/bg-images/promo-banner-small.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/bg-images/promo-banner-with-text-2--small.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/bg-images/promo-banner-with-text-2--small.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/promo-banner-with-text-2--small.jpg",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/bg-images/promo-banner-with-text-2--small.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/bg-images/promo-banner-with-text-2.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/bg-images/promo-banner-with-text-2.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/promo-banner-with-text-2.jpg",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/bg-images/promo-banner-with-text-2.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/bg-images/promo-banner-with-text-big.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/bg-images/promo-banner-with-text-big.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/promo-banner-with-text-big.jpg",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/bg-images/promo-banner-with-text-big.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/bg-images/promo-banner-with-text.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/bg-images/promo-banner-with-text.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/promo-banner-with-text.jpg",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/bg-images/promo-banner-with-text.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/favicon.ico",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/favicon.ico",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/favicon.ico",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/favicon.ico"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/icon/author-logo.png",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/icon/author-logo.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/icon/author-logo.png",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/icon/author-logo.png"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/icon/eng-flag.png",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/icon/eng-flag.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/icon/eng-flag.png",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/icon/eng-flag.png"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/icon/germany-flag.png",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/icon/germany-flag.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/icon/germany-flag.png",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/icon/germany-flag.png"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/icon/payment.png",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/icon/payment.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/icon/payment.png",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/icon/payment.png"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/icon/quotation.png",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/icon/quotation.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/icon/quotation.png",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/icon/quotation.png"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/logo--footer.png",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/logo--footer.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/logo--footer.png",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/logo--footer.png"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/logo.png",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/logo.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/logo.png",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/logo.png"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/others/best-seller-author.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/others/best-seller-author.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/best-seller-author.jpg",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/others/best-seller-author.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/others/blog-grid-1.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/others/blog-grid-1.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/blog-grid-1.jpg",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/others/blog-grid-1.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/others/blog-grid-2.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/others/blog-grid-2.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/blog-grid-2.jpg",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/others/blog-grid-2.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/others/blog-grid-3.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/others/blog-grid-3.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/blog-grid-3.jpg",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/others/blog-grid-3.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/others/blog-grid-4.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/others/blog-grid-4.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/blog-grid-4.jpg",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/others/blog-grid-4.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/others/blog-img-big-1.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/others/blog-img-big-1.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/blog-img-big-1.jpg",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/others/blog-img-big-1.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/others/blog-img-big-2.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/others/blog-img-big-2.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/blog-img-big-2.jpg",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/others/blog-img-big-2.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/others/blog-img-big-3.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/others/blog-img-big-3.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/blog-img-big-3.jpg",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/others/blog-img-big-3.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/others/brand-1.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/others/brand-1.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/brand-1.jpg",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/others/brand-1.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/others/brand-2.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/others/brand-2.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/brand-2.jpg",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/others/brand-2.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/others/brand-3.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/others/brand-3.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/brand-3.jpg",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/others/brand-3.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/others/brand-4.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/others/brand-4.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/brand-4.jpg",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/others/brand-4.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/others/brand-5.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/others/brand-5.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/brand-5.jpg",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/others/brand-5.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/others/brand-6.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/others/brand-6.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/brand-6.jpg",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/others/brand-6.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/others/cat-gal-large.png",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/others/cat-gal-large.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/cat-gal-large.png",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/others/cat-gal-large.png"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/others/cat-gal-mid-2.png",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/others/cat-gal-mid-2.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/cat-gal-mid-2.png",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/others/cat-gal-mid-2.png"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/others/cat-gal-mid.png",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/others/cat-gal-mid.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/cat-gal-mid.png",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/others/cat-gal-mid.png"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/others/cat-gal-small-2.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/others/cat-gal-small-2.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/cat-gal-small-2.jpg",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/others/cat-gal-small-2.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/others/cat-gal-small.png",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/others/cat-gal-small.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/cat-gal-small.png",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/others/cat-gal-small.png"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/others/client-1.png",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/others/client-1.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/client-1.png",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/others/client-1.png"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/others/client-2.png",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/others/client-2.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/client-2.png",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/others/client-2.png"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/others/client-3.png",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/others/client-3.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/client-3.png",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/others/client-3.png"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/others/client-4.png",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/others/client-4.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/client-4.png",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/others/client-4.png"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/others/client-5.png",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/others/client-5.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/client-5.png",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/others/client-5.png"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/others/home-blog-1.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/others/home-blog-1.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/home-blog-1.jpg",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/others/home-blog-1.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/others/home-blog-2.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/others/home-blog-2.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/home-blog-2.jpg",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/others/home-blog-2.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/others/home-side-promo.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/others/home-side-promo.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/home-side-promo.jpg",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/others/home-side-promo.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/products/cart-product-1.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/products/cart-product-1.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/cart-product-1.jpg",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/products/cart-product-1.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/products/product-1.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/products/product-1.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-1.jpg",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/products/product-1.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/products/product-10.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/products/product-10.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-10.jpg",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/products/product-10.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/products/product-11.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/products/product-11.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-11.jpg",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/products/product-11.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/products/product-12.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/products/product-12.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-12.jpg",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/products/product-12.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/products/product-13.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/products/product-13.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-13.jpg",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/products/product-13.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/products/product-2.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/products/product-2.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-2.jpg",
       "AssetKind": "All",
@@ -1708,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/products/product-2.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/products/product-3.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/products/product-3.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-3.jpg",
       "AssetKind": "All",
@@ -1727,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/products/product-3.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/products/product-4.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/products/product-4.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-4.jpg",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/products/product-4.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/products/product-5.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/products/product-5.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-5.jpg",
       "AssetKind": "All",
@@ -1765,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/products/product-5.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/products/product-6.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/products/product-6.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-6.jpg",
       "AssetKind": "All",
@@ -1784,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/products/product-6.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/products/product-7.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/products/product-7.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-7.jpg",
       "AssetKind": "All",
@@ -1803,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/products/product-7.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/products/product-8.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/products/product-8.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-8.jpg",
       "AssetKind": "All",
@@ -1822,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/products/product-8.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/products/product-9.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/products/product-9.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-9.jpg",
       "AssetKind": "All",
@@ -1841,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/products/product-9.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/products/product-details-1.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/products/product-details-1.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-details-1.jpg",
       "AssetKind": "All",
@@ -1860,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/products/product-details-1.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/products/product-details-2.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/products/product-details-2.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-details-2.jpg",
       "AssetKind": "All",
@@ -1879,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/products/product-details-2.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/products/product-details-3.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/products/product-details-3.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-details-3.jpg",
       "AssetKind": "All",
@@ -1898,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/products/product-details-3.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/products/product-details-4.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/products/product-details-4.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-details-4.jpg",
       "AssetKind": "All",
@@ -1917,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/products/product-details-4.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/image/products/product-details-5.jpg",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/products/product-details-5.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-details-5.jpg",
       "AssetKind": "All",
@@ -1936,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot/assets/image/products/product-details-5.jpg"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/js/ajax-mail.js",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/js/ajax-mail.js",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/js/ajax-mail.js",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot/assets/js/ajax-mail.js"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/js/custom.js",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/js/custom.js",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/js/custom.js",
       "AssetKind": "All",
@@ -1974,10 +1974,29 @@
       "OriginalItemSpec": "wwwroot/assets/js/custom.js"
     },
     {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/assets/js/plugins.js",
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/js/main.js",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/Pustok/PustokApp/wwwroot/",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
+      "BasePath": "_content/PustokApp",
+      "RelativePath": "assets/js/main.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/js/main.js"
+    },
+    {
+      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/js/plugins.js",
+      "SourceId": "PustokApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/js/plugins.js",
       "AssetKind": "All",
