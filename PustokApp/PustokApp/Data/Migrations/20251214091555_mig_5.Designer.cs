@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Pustok.Data;
 
@@ -10,9 +11,11 @@ using Pustok.Data;
 namespace Pustok.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251214091555_mig_5")]
+    partial class mig_5
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -31,8 +34,7 @@ namespace Pustok.Data.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -137,11 +139,11 @@ namespace Pustok.Data.Migrations
                             Code = "BK001",
                             Description = "A classic novel set in the Jazz Age",
                             DiscountPercent = 10,
-                            HoverImageUrl = "products/product-2.jpg",
+                            HoverImageUrl = "great-gatsby-hover.jpg",
                             InStock = true,
                             IsFeatured = true,
                             IsNew = false,
-                            MainImageUrl = "products/product-1.jpg",
+                            MainImageUrl = "great-gatsby.jpg",
                             Name = "The Great Gatsby",
                             Price = 15.99m
                         },
@@ -152,11 +154,11 @@ namespace Pustok.Data.Migrations
                             Code = "BK002",
                             Description = "A story of a psychiatrist's descent into alcoholism",
                             DiscountPercent = 5,
-                            HoverImageUrl = "products/product-4.jpg",
+                            HoverImageUrl = "tender-night-hover.jpg",
                             InStock = true,
                             IsFeatured = false,
                             IsNew = false,
-                            MainImageUrl = "products/product-3.jpg",
+                            MainImageUrl = "tender-night.jpg",
                             Name = "Tender Is the Night",
                             Price = 16.99m
                         },
@@ -167,11 +169,11 @@ namespace Pustok.Data.Migrations
                             Code = "BK003",
                             Description = "The debut novel about post-World War I youth",
                             DiscountPercent = 0,
-                            HoverImageUrl = "products/product-6.jpg",
+                            HoverImageUrl = "paradise-hover.jpg",
                             InStock = true,
                             IsFeatured = false,
                             IsNew = false,
-                            MainImageUrl = "products/product-5.jpg",
+                            MainImageUrl = "paradise.jpg",
                             Name = "This Side of Paradise",
                             Price = 14.99m
                         },
@@ -182,11 +184,11 @@ namespace Pustok.Data.Migrations
                             Code = "BK004",
                             Description = "A gripping tale of racial injustice",
                             DiscountPercent = 15,
-                            HoverImageUrl = "products/product-8.jpg",
+                            HoverImageUrl = "mockingbird-hover.jpg",
                             InStock = true,
                             IsFeatured = true,
                             IsNew = false,
-                            MainImageUrl = "products/product-7.jpg",
+                            MainImageUrl = "mockingbird.jpg",
                             Name = "To Kill a Mockingbird",
                             Price = 18.50m
                         },
@@ -197,11 +199,11 @@ namespace Pustok.Data.Migrations
                             Code = "BK005",
                             Description = "A sequel to To Kill a Mockingbird",
                             DiscountPercent = 10,
-                            HoverImageUrl = "products/product-10.jpg",
+                            HoverImageUrl = "watchman-hover.jpg",
                             InStock = true,
                             IsFeatured = false,
                             IsNew = true,
-                            MainImageUrl = "products/product-9.jpg",
+                            MainImageUrl = "watchman.jpg",
                             Name = "Go Set a Watchman",
                             Price = 17.99m
                         },
@@ -212,11 +214,11 @@ namespace Pustok.Data.Migrations
                             Code = "BK006",
                             Description = "A dystopian social science fiction novel",
                             DiscountPercent = 0,
-                            HoverImageUrl = "products/product-12.jpg",
+                            HoverImageUrl = "1984-hover.jpg",
                             InStock = true,
                             IsFeatured = true,
                             IsNew = true,
-                            MainImageUrl = "products/product-11.jpg",
+                            MainImageUrl = "1984.jpg",
                             Name = "1984",
                             Price = 14.99m
                         },
@@ -227,11 +229,11 @@ namespace Pustok.Data.Migrations
                             Code = "BK007",
                             Description = "An allegorical novella about Soviet totalitarianism",
                             DiscountPercent = 5,
-                            HoverImageUrl = "products/product-1.jpg",
+                            HoverImageUrl = "animal-farm-hover.jpg",
                             InStock = true,
                             IsFeatured = true,
                             IsNew = false,
-                            MainImageUrl = "products/product-13.jpg",
+                            MainImageUrl = "animal-farm.jpg",
                             Name = "Animal Farm",
                             Price = 13.99m
                         },
@@ -242,11 +244,11 @@ namespace Pustok.Data.Migrations
                             Code = "BK008",
                             Description = "Orwell's account of the Spanish Civil War",
                             DiscountPercent = 0,
-                            HoverImageUrl = "products/product-3.jpg",
+                            HoverImageUrl = "catalonia-hover.jpg",
                             InStock = true,
                             IsFeatured = false,
                             IsNew = false,
-                            MainImageUrl = "products/product-2.jpg",
+                            MainImageUrl = "catalonia.jpg",
                             Name = "Homage to Catalonia",
                             Price = 15.50m
                         },
@@ -257,11 +259,11 @@ namespace Pustok.Data.Migrations
                             Code = "BK009",
                             Description = "A romantic novel of manners",
                             DiscountPercent = 20,
-                            HoverImageUrl = "products/product-5.jpg",
+                            HoverImageUrl = "pride-prejudice-hover.jpg",
                             InStock = true,
                             IsFeatured = true,
                             IsNew = false,
-                            MainImageUrl = "products/product-4.jpg",
+                            MainImageUrl = "pride-prejudice.jpg",
                             Name = "Pride and Prejudice",
                             Price = 12.99m
                         },
@@ -272,11 +274,11 @@ namespace Pustok.Data.Migrations
                             Code = "BK010",
                             Description = "A story of two sisters and their romantic adventures",
                             DiscountPercent = 15,
-                            HoverImageUrl = "products/product-7.jpg",
+                            HoverImageUrl = "sense-sensibility-hover.jpg",
                             InStock = true,
                             IsFeatured = false,
                             IsNew = false,
-                            MainImageUrl = "products/product-6.jpg",
+                            MainImageUrl = "sense-sensibility.jpg",
                             Name = "Sense and Sensibility",
                             Price = 13.99m
                         },
@@ -287,11 +289,11 @@ namespace Pustok.Data.Migrations
                             Code = "BK011",
                             Description = "A comedy of manners about youthful hubris",
                             DiscountPercent = 10,
-                            HoverImageUrl = "products/product-9.jpg",
+                            HoverImageUrl = "emma-hover.jpg",
                             InStock = true,
                             IsFeatured = false,
                             IsNew = false,
-                            MainImageUrl = "products/product-8.jpg",
+                            MainImageUrl = "emma.jpg",
                             Name = "Emma",
                             Price = 14.50m
                         },
@@ -302,11 +304,11 @@ namespace Pustok.Data.Migrations
                             Code = "BK012",
                             Description = "A classic American adventure novel",
                             DiscountPercent = 5,
-                            HoverImageUrl = "products/product-11.jpg",
+                            HoverImageUrl = "huckleberry-finn-hover.jpg",
                             InStock = true,
                             IsFeatured = true,
                             IsNew = true,
-                            MainImageUrl = "products/product-10.jpg",
+                            MainImageUrl = "huckleberry-finn.jpg",
                             Name = "Adventures of Huckleberry Finn",
                             Price = 13.50m
                         },
@@ -317,11 +319,11 @@ namespace Pustok.Data.Migrations
                             Code = "BK013",
                             Description = "A boy's adventures in a Mississippi River town",
                             DiscountPercent = 5,
-                            HoverImageUrl = "products/product-13.jpg",
+                            HoverImageUrl = "tom-sawyer-hover.jpg",
                             InStock = true,
                             IsFeatured = false,
                             IsNew = false,
-                            MainImageUrl = "products/product-12.jpg",
+                            MainImageUrl = "tom-sawyer.jpg",
                             Name = "The Adventures of Tom Sawyer",
                             Price = 12.99m
                         },
@@ -332,11 +334,11 @@ namespace Pustok.Data.Migrations
                             Code = "BK014",
                             Description = "A young wizard's first year at Hogwarts",
                             DiscountPercent = 25,
-                            HoverImageUrl = "products/product-2.jpg",
+                            HoverImageUrl = "hp-stone-hover.jpg",
                             InStock = true,
                             IsFeatured = true,
                             IsNew = true,
-                            MainImageUrl = "products/product-1.jpg",
+                            MainImageUrl = "hp-stone.jpg",
                             Name = "Harry Potter and the Philosopher's Stone",
                             Price = 19.99m
                         },
@@ -347,11 +349,11 @@ namespace Pustok.Data.Migrations
                             Code = "BK015",
                             Description = "Harry's second year at Hogwarts",
                             DiscountPercent = 20,
-                            HoverImageUrl = "products/product-4.jpg",
+                            HoverImageUrl = "hp-chamber-hover.jpg",
                             InStock = true,
                             IsFeatured = true,
                             IsNew = true,
-                            MainImageUrl = "products/product-3.jpg",
+                            MainImageUrl = "hp-chamber.jpg",
                             Name = "Harry Potter and the Chamber of Secrets",
                             Price = 20.99m
                         },
@@ -362,11 +364,11 @@ namespace Pustok.Data.Migrations
                             Code = "BK016",
                             Description = "Harry's third year brings new dangers",
                             DiscountPercent = 20,
-                            HoverImageUrl = "products/product-6.jpg",
+                            HoverImageUrl = "hp-azkaban-hover.jpg",
                             InStock = true,
                             IsFeatured = false,
                             IsNew = true,
-                            MainImageUrl = "products/product-5.jpg",
+                            MainImageUrl = "hp-azkaban.jpg",
                             Name = "Harry Potter and the Prisoner of Azkaban",
                             Price = 21.99m
                         },
@@ -377,11 +379,11 @@ namespace Pustok.Data.Migrations
                             Code = "BK017",
                             Description = "An aging fisherman's epic struggle with a giant marlin",
                             DiscountPercent = 10,
-                            HoverImageUrl = "products/product-8.jpg",
+                            HoverImageUrl = "old-man-sea-hover.jpg",
                             InStock = true,
                             IsFeatured = true,
                             IsNew = false,
-                            MainImageUrl = "products/product-7.jpg",
+                            MainImageUrl = "old-man-sea.jpg",
                             Name = "The Old Man and the Sea",
                             Price = 16.50m
                         },
@@ -392,11 +394,11 @@ namespace Pustok.Data.Migrations
                             Code = "BK018",
                             Description = "A love story set during World War I",
                             DiscountPercent = 5,
-                            HoverImageUrl = "products/product-10.jpg",
+                            HoverImageUrl = "farewell-arms-hover.jpg",
                             InStock = true,
                             IsFeatured = false,
                             IsNew = false,
-                            MainImageUrl = "products/product-9.jpg",
+                            MainImageUrl = "farewell-arms.jpg",
                             Name = "A Farewell to Arms",
                             Price = 17.99m
                         });
@@ -428,217 +430,217 @@ namespace Pustok.Data.Migrations
                         {
                             Id = 1,
                             BookId = 1,
-                            ImageUrl = "products/product-details-1.jpg"
+                            ImageUrl = "great-gatsby-detail1.jpg"
                         },
                         new
                         {
                             Id = 2,
                             BookId = 1,
-                            ImageUrl = "products/product-details-2.jpg"
+                            ImageUrl = "great-gatsby-detail2.jpg"
                         },
                         new
                         {
                             Id = 3,
                             BookId = 2,
-                            ImageUrl = "products/product-details-3.jpg"
+                            ImageUrl = "tender-night-detail1.jpg"
                         },
                         new
                         {
                             Id = 4,
                             BookId = 2,
-                            ImageUrl = "products/product-details-4.jpg"
+                            ImageUrl = "tender-night-detail2.jpg"
                         },
                         new
                         {
                             Id = 5,
                             BookId = 3,
-                            ImageUrl = "products/product-details-5.jpg"
+                            ImageUrl = "paradise-detail1.jpg"
                         },
                         new
                         {
                             Id = 6,
                             BookId = 3,
-                            ImageUrl = "products/product-details-1.jpg"
+                            ImageUrl = "paradise-detail2.jpg"
                         },
                         new
                         {
                             Id = 7,
                             BookId = 4,
-                            ImageUrl = "products/product-details-2.jpg"
+                            ImageUrl = "mockingbird-detail1.jpg"
                         },
                         new
                         {
                             Id = 8,
                             BookId = 4,
-                            ImageUrl = "products/product-details-3.jpg"
+                            ImageUrl = "mockingbird-detail2.jpg"
                         },
                         new
                         {
                             Id = 9,
                             BookId = 5,
-                            ImageUrl = "products/product-details-4.jpg"
+                            ImageUrl = "watchman-detail1.jpg"
                         },
                         new
                         {
                             Id = 10,
                             BookId = 5,
-                            ImageUrl = "products/product-details-5.jpg"
+                            ImageUrl = "watchman-detail2.jpg"
                         },
                         new
                         {
                             Id = 11,
                             BookId = 6,
-                            ImageUrl = "products/product-details-1.jpg"
+                            ImageUrl = "1984-detail1.jpg"
                         },
                         new
                         {
                             Id = 12,
                             BookId = 6,
-                            ImageUrl = "products/product-details-2.jpg"
+                            ImageUrl = "1984-detail2.jpg"
                         },
                         new
                         {
                             Id = 13,
                             BookId = 7,
-                            ImageUrl = "products/product-details-3.jpg"
+                            ImageUrl = "animal-farm-detail1.jpg"
                         },
                         new
                         {
                             Id = 14,
                             BookId = 7,
-                            ImageUrl = "products/product-details-4.jpg"
+                            ImageUrl = "animal-farm-detail2.jpg"
                         },
                         new
                         {
                             Id = 15,
                             BookId = 8,
-                            ImageUrl = "products/product-details-5.jpg"
+                            ImageUrl = "catalonia-detail1.jpg"
                         },
                         new
                         {
                             Id = 16,
                             BookId = 8,
-                            ImageUrl = "products/product-details-1.jpg"
+                            ImageUrl = "catalonia-detail2.jpg"
                         },
                         new
                         {
                             Id = 17,
                             BookId = 9,
-                            ImageUrl = "products/product-details-2.jpg"
+                            ImageUrl = "pride-prejudice-detail1.jpg"
                         },
                         new
                         {
                             Id = 18,
                             BookId = 9,
-                            ImageUrl = "products/product-details-3.jpg"
+                            ImageUrl = "pride-prejudice-detail2.jpg"
                         },
                         new
                         {
                             Id = 19,
                             BookId = 10,
-                            ImageUrl = "products/product-details-4.jpg"
+                            ImageUrl = "sense-sensibility-detail1.jpg"
                         },
                         new
                         {
                             Id = 20,
                             BookId = 10,
-                            ImageUrl = "products/product-details-5.jpg"
+                            ImageUrl = "sense-sensibility-detail2.jpg"
                         },
                         new
                         {
                             Id = 21,
                             BookId = 11,
-                            ImageUrl = "products/product-details-1.jpg"
+                            ImageUrl = "emma-detail1.jpg"
                         },
                         new
                         {
                             Id = 22,
                             BookId = 11,
-                            ImageUrl = "products/product-details-2.jpg"
+                            ImageUrl = "emma-detail2.jpg"
                         },
                         new
                         {
                             Id = 23,
                             BookId = 12,
-                            ImageUrl = "products/product-details-3.jpg"
+                            ImageUrl = "huckleberry-finn-detail1.jpg"
                         },
                         new
                         {
                             Id = 24,
                             BookId = 12,
-                            ImageUrl = "products/product-details-4.jpg"
+                            ImageUrl = "huckleberry-finn-detail2.jpg"
                         },
                         new
                         {
                             Id = 25,
                             BookId = 13,
-                            ImageUrl = "products/product-details-5.jpg"
+                            ImageUrl = "tom-sawyer-detail1.jpg"
                         },
                         new
                         {
                             Id = 26,
                             BookId = 13,
-                            ImageUrl = "products/product-details-1.jpg"
+                            ImageUrl = "tom-sawyer-detail2.jpg"
                         },
                         new
                         {
                             Id = 27,
                             BookId = 14,
-                            ImageUrl = "products/product-details-2.jpg"
+                            ImageUrl = "hp-stone-detail1.jpg"
                         },
                         new
                         {
                             Id = 28,
                             BookId = 14,
-                            ImageUrl = "products/product-details-3.jpg"
+                            ImageUrl = "hp-stone-detail2.jpg"
                         },
                         new
                         {
                             Id = 29,
                             BookId = 15,
-                            ImageUrl = "products/product-details-4.jpg"
+                            ImageUrl = "hp-chamber-detail1.jpg"
                         },
                         new
                         {
                             Id = 30,
                             BookId = 15,
-                            ImageUrl = "products/product-details-5.jpg"
+                            ImageUrl = "hp-chamber-detail2.jpg"
                         },
                         new
                         {
                             Id = 31,
                             BookId = 16,
-                            ImageUrl = "products/product-details-1.jpg"
+                            ImageUrl = "hp-azkaban-detail1.jpg"
                         },
                         new
                         {
                             Id = 32,
                             BookId = 16,
-                            ImageUrl = "products/product-details-2.jpg"
+                            ImageUrl = "hp-azkaban-detail2.jpg"
                         },
                         new
                         {
                             Id = 33,
                             BookId = 17,
-                            ImageUrl = "products/product-details-3.jpg"
+                            ImageUrl = "old-man-sea-detail1.jpg"
                         },
                         new
                         {
                             Id = 34,
                             BookId = 17,
-                            ImageUrl = "products/product-details-4.jpg"
+                            ImageUrl = "old-man-sea-detail2.jpg"
                         },
                         new
                         {
                             Id = 35,
                             BookId = 18,
-                            ImageUrl = "products/product-details-5.jpg"
+                            ImageUrl = "farewell-arms-detail1.jpg"
                         },
                         new
                         {
                             Id = 36,
                             BookId = 18,
-                            ImageUrl = "products/product-details-1.jpg"
+                            ImageUrl = "farewell-arms-detail2.jpg"
                         });
                 });
 
@@ -684,223 +686,53 @@ namespace Pustok.Data.Migrations
                         },
                         new
                         {
-                            BookId = 3,
-                            TagId = 1
-                        },
-                        new
-                        {
-                            BookId = 3,
-                            TagId = 2
-                        },
-                        new
-                        {
-                            BookId = 4,
-                            TagId = 1
-                        },
-                        new
-                        {
-                            BookId = 4,
-                            TagId = 2
-                        },
-                        new
-                        {
-                            BookId = 4,
+                            BookId = 2,
                             TagId = 8
                         },
                         new
                         {
-                            BookId = 4,
-                            TagId = 3
-                        },
-                        new
-                        {
-                            BookId = 5,
-                            TagId = 1
-                        },
-                        new
-                        {
-                            BookId = 5,
-                            TagId = 8
-                        },
-                        new
-                        {
-                            BookId = 6,
+                            BookId = 3,
                             TagId = 6
                         },
                         new
                         {
-                            BookId = 6,
+                            BookId = 3,
                             TagId = 2
                         },
                         new
                         {
-                            BookId = 6,
+                            BookId = 3,
                             TagId = 3
                         },
                         new
                         {
-                            BookId = 7,
-                            TagId = 1
-                        },
-                        new
-                        {
-                            BookId = 7,
-                            TagId = 2
-                        },
-                        new
-                        {
-                            BookId = 7,
-                            TagId = 3
-                        },
-                        new
-                        {
-                            BookId = 8,
-                            TagId = 8
-                        },
-                        new
-                        {
-                            BookId = 8,
-                            TagId = 2
-                        },
-                        new
-                        {
-                            BookId = 9,
+                            BookId = 4,
                             TagId = 4
                         },
                         new
                         {
-                            BookId = 9,
+                            BookId = 4,
                             TagId = 2
                         },
                         new
                         {
-                            BookId = 9,
+                            BookId = 4,
                             TagId = 3
                         },
                         new
                         {
-                            BookId = 10,
-                            TagId = 4
-                        },
-                        new
-                        {
-                            BookId = 10,
-                            TagId = 2
-                        },
-                        new
-                        {
-                            BookId = 11,
-                            TagId = 4
-                        },
-                        new
-                        {
-                            BookId = 11,
-                            TagId = 2
-                        },
-                        new
-                        {
-                            BookId = 12,
+                            BookId = 5,
                             TagId = 5
                         },
                         new
                         {
-                            BookId = 12,
+                            BookId = 5,
                             TagId = 1
                         },
                         new
                         {
-                            BookId = 12,
+                            BookId = 5,
                             TagId = 2
-                        },
-                        new
-                        {
-                            BookId = 13,
-                            TagId = 5
-                        },
-                        new
-                        {
-                            BookId = 13,
-                            TagId = 1
-                        },
-                        new
-                        {
-                            BookId = 13,
-                            TagId = 2
-                        },
-                        new
-                        {
-                            BookId = 14,
-                            TagId = 1
-                        },
-                        new
-                        {
-                            BookId = 14,
-                            TagId = 5
-                        },
-                        new
-                        {
-                            BookId = 14,
-                            TagId = 3
-                        },
-                        new
-                        {
-                            BookId = 15,
-                            TagId = 1
-                        },
-                        new
-                        {
-                            BookId = 15,
-                            TagId = 5
-                        },
-                        new
-                        {
-                            BookId = 15,
-                            TagId = 3
-                        },
-                        new
-                        {
-                            BookId = 16,
-                            TagId = 1
-                        },
-                        new
-                        {
-                            BookId = 16,
-                            TagId = 5
-                        },
-                        new
-                        {
-                            BookId = 16,
-                            TagId = 7
-                        },
-                        new
-                        {
-                            BookId = 17,
-                            TagId = 1
-                        },
-                        new
-                        {
-                            BookId = 17,
-                            TagId = 2
-                        },
-                        new
-                        {
-                            BookId = 17,
-                            TagId = 5
-                        },
-                        new
-                        {
-                            BookId = 18,
-                            TagId = 1
-                        },
-                        new
-                        {
-                            BookId = 18,
-                            TagId = 2
-                        },
-                        new
-                        {
-                            BookId = 18,
-                            TagId = 4
                         });
                 });
 
@@ -1022,7 +854,7 @@ namespace Pustok.Data.Migrations
                             ButtonText = "Shop Now",
                             ButtonUrl = "/books",
                             Description = "Your favorite online bookstore",
-                            ImageUrl = "bg-images/home-2-slider-1.jpg",
+                            ImageUrl = "slider1.jpg",
                             Order = 1,
                             Title = "Welcome to Pustok"
                         },
@@ -1032,7 +864,7 @@ namespace Pustok.Data.Migrations
                             ButtonText = "Explore",
                             ButtonUrl = "/books",
                             Description = "Discover amazing books",
-                            ImageUrl = "bg-images/home-2-slider-2.jpg",
+                            ImageUrl = "slider2.jpg",
                             Order = 2,
                             Title = "Best Sellers"
                         },
@@ -1042,7 +874,7 @@ namespace Pustok.Data.Migrations
                             ButtonText = "View More",
                             ButtonUrl = "/books",
                             Description = "Check out our latest collection",
-                            ImageUrl = "bg-images/home-3-slider-1.jpg",
+                            ImageUrl = "slider3.jpg",
                             Order = 3,
                             Title = "New Arrivals"
                         });

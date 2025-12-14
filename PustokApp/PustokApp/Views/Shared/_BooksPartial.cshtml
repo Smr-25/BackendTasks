@@ -13,10 +13,10 @@
             </div>
             <div class="product-card--body">
                 <div class="card-image">
-                    <img src="~/assets/image/products/@book.MainImageUrl" alt="">
+                    <img src="~/assets/image/@book.MainImageUrl" alt="">
                     <div class="hover-contents">
                         <a asp-controller="Books" asp-action="Details" asp-route-id="@book.Id" class="hover-image">
-                            <img src="~/assets/image/products/@book.HoverImageUrl" alt="">
+                            <img src="~/assets/image/@book.HoverImageUrl" alt="">
                         </a>
                         <div class="hover-btns">
                             <a href="cart.html" class="single-btn">
@@ -28,7 +28,7 @@
                             <a href="compare.html" class="single-btn">
                                 <i class="fas fa-random"></i>
                             </a>
-                            <a asp-controller="Books" asp-action="BookModal" asp-route-id="@book.Id" data-bs-toggle="modal" data-bs-target="#quickModal"
+                            <a asp-controller="Books" asp-action="BookModal" asp-route-id="@book.Id"
                                class="single-btn bookModalIcon">
                                 <i class="fas fa-eye"></i>
                             </a>

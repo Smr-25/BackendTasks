@@ -38,6 +38,6 @@ public class BooksController(AppDbContext dbContext) : Controller
             .ThenInclude(x => x.Tag)
             .FirstOrDefault(b => b.Id == id);
         if (book == null) return NotFound();
-        return PartialView("_BooksModalPartial",book);
+        return PartialView("_BookModalPartial",book);
     }
 }
