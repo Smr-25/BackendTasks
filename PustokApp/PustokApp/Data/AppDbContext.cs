@@ -1,9 +1,10 @@
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Pustok.Models;
 
 namespace Pustok.Data;
 
-public class AppDbContext : DbContext
+public class AppDbContext(DbContextOptions<AppDbContext> options) : IdentityDbContext<AppUser>(options)
 {
     public DbSet<Slider> Sliders { get; set; }
     public DbSet<Author> Authors { get; set; }
@@ -12,11 +13,7 @@ public class AppDbContext : DbContext
     public DbSet<Tag> Tags { get; set; }
     public DbSet<BookTag> BookTags { get; set; }
     public DbSet<Setting> Settings { get; set; }
-    
 
-    public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
-    {
-    }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -36,34 +33,34 @@ public class AppDbContext : DbContext
 
         // Seed Data for Sliders
         modelBuilder.Entity<Slider>().HasData(
-            new Slider 
-            { 
-                Id = 1, 
-                Title = "Welcome to Pustok", 
-                Description = "Your favorite online bookstore", 
-                ImageUrl = "bg-images/home-2-slider-1.jpg", 
-                ButtonText = "Shop Now", 
-                ButtonUrl = "/books", 
+            new Slider
+            {
+                Id = 1,
+                Title = "Welcome to Pustok",
+                Description = "Your favorite online bookstore",
+                ImageUrl = "bg-images/home-2-slider-1.jpg",
+                ButtonText = "Shop Now",
+                ButtonUrl = "/books",
                 Order = 1
             },
-            new Slider 
-            { 
-                Id = 2, 
-                Title = "Best Sellers", 
-                Description = "Discover amazing books", 
-                ImageUrl = "bg-images/home-2-slider-2.jpg", 
-                ButtonText = "Explore", 
-                ButtonUrl = "/books", 
+            new Slider
+            {
+                Id = 2,
+                Title = "Best Sellers",
+                Description = "Discover amazing books",
+                ImageUrl = "bg-images/home-2-slider-2.jpg",
+                ButtonText = "Explore",
+                ButtonUrl = "/books",
                 Order = 2
             },
-            new Slider 
-            { 
-                Id = 3, 
-                Title = "New Arrivals", 
-                Description = "Check out our latest collection", 
-                ImageUrl = "bg-images/home-3-slider-1.jpg", 
-                ButtonText = "View More", 
-                ButtonUrl = "/books", 
+            new Slider
+            {
+                Id = 3,
+                Title = "New Arrivals",
+                Description = "Check out our latest collection",
+                ImageUrl = "bg-images/home-3-slider-1.jpg",
+                ButtonText = "View More",
+                ButtonUrl = "/books",
                 Order = 3
             }
         );
@@ -83,12 +80,12 @@ public class AppDbContext : DbContext
         // Seed Data for Books
         modelBuilder.Entity<Book>().HasData(
             // F. Scott Fitzgerald - 3 books
-            new Book 
-            { 
-                Id = 1, 
-                Name = "The Great Gatsby", 
-                Description = "A classic novel set in the Jazz Age", 
-                Price = 15.99m, 
+            new Book
+            {
+                Id = 1,
+                Name = "The Great Gatsby",
+                Description = "A classic novel set in the Jazz Age",
+                Price = 15.99m,
                 Code = "BK001",
                 DiscountPercent = 10,
                 InStock = true,
@@ -98,12 +95,12 @@ public class AppDbContext : DbContext
                 HoverImageUrl = "products/product-2.jpg",
                 AuthorId = 1
             },
-            new Book 
-            { 
-                Id = 2, 
-                Name = "Tender Is the Night", 
-                Description = "A story of a psychiatrist's descent into alcoholism", 
-                Price = 16.99m, 
+            new Book
+            {
+                Id = 2,
+                Name = "Tender Is the Night",
+                Description = "A story of a psychiatrist's descent into alcoholism",
+                Price = 16.99m,
                 Code = "BK002",
                 DiscountPercent = 5,
                 InStock = true,
@@ -113,12 +110,12 @@ public class AppDbContext : DbContext
                 HoverImageUrl = "products/product-4.jpg",
                 AuthorId = 1
             },
-            new Book 
-            { 
-                Id = 3, 
-                Name = "This Side of Paradise", 
-                Description = "The debut novel about post-World War I youth", 
-                Price = 14.99m, 
+            new Book
+            {
+                Id = 3,
+                Name = "This Side of Paradise",
+                Description = "The debut novel about post-World War I youth",
+                Price = 14.99m,
                 Code = "BK003",
                 DiscountPercent = 0,
                 InStock = true,
@@ -128,14 +125,14 @@ public class AppDbContext : DbContext
                 HoverImageUrl = "products/product-6.jpg",
                 AuthorId = 1
             },
-            
+
             // Harper Lee - 2 books
-            new Book 
-            { 
-                Id = 4, 
-                Name = "To Kill a Mockingbird", 
-                Description = "A gripping tale of racial injustice", 
-                Price = 18.50m, 
+            new Book
+            {
+                Id = 4,
+                Name = "To Kill a Mockingbird",
+                Description = "A gripping tale of racial injustice",
+                Price = 18.50m,
                 Code = "BK004",
                 DiscountPercent = 15,
                 InStock = true,
@@ -145,12 +142,12 @@ public class AppDbContext : DbContext
                 HoverImageUrl = "products/product-8.jpg",
                 AuthorId = 2
             },
-            new Book 
-            { 
-                Id = 5, 
-                Name = "Go Set a Watchman", 
-                Description = "A sequel to To Kill a Mockingbird", 
-                Price = 17.99m, 
+            new Book
+            {
+                Id = 5,
+                Name = "Go Set a Watchman",
+                Description = "A sequel to To Kill a Mockingbird",
+                Price = 17.99m,
                 Code = "BK005",
                 DiscountPercent = 10,
                 InStock = true,
@@ -160,14 +157,14 @@ public class AppDbContext : DbContext
                 HoverImageUrl = "products/product-10.jpg",
                 AuthorId = 2
             },
-            
+
             // George Orwell - 3 books
-            new Book 
-            { 
-                Id = 6, 
-                Name = "1984", 
-                Description = "A dystopian social science fiction novel", 
-                Price = 14.99m, 
+            new Book
+            {
+                Id = 6,
+                Name = "1984",
+                Description = "A dystopian social science fiction novel",
+                Price = 14.99m,
                 Code = "BK006",
                 DiscountPercent = 0,
                 InStock = true,
@@ -177,12 +174,12 @@ public class AppDbContext : DbContext
                 HoverImageUrl = "products/product-12.jpg",
                 AuthorId = 3
             },
-            new Book 
-            { 
-                Id = 7, 
-                Name = "Animal Farm", 
-                Description = "An allegorical novella about Soviet totalitarianism", 
-                Price = 13.99m, 
+            new Book
+            {
+                Id = 7,
+                Name = "Animal Farm",
+                Description = "An allegorical novella about Soviet totalitarianism",
+                Price = 13.99m,
                 Code = "BK007",
                 DiscountPercent = 5,
                 InStock = true,
@@ -192,12 +189,12 @@ public class AppDbContext : DbContext
                 HoverImageUrl = "products/product-1.jpg",
                 AuthorId = 3
             },
-            new Book 
-            { 
-                Id = 8, 
-                Name = "Homage to Catalonia", 
-                Description = "Orwell's account of the Spanish Civil War", 
-                Price = 15.50m, 
+            new Book
+            {
+                Id = 8,
+                Name = "Homage to Catalonia",
+                Description = "Orwell's account of the Spanish Civil War",
+                Price = 15.50m,
                 Code = "BK008",
                 DiscountPercent = 0,
                 InStock = true,
@@ -207,14 +204,14 @@ public class AppDbContext : DbContext
                 HoverImageUrl = "products/product-3.jpg",
                 AuthorId = 3
             },
-            
+
             // Jane Austen - 3 books
-            new Book 
-            { 
-                Id = 9, 
-                Name = "Pride and Prejudice", 
-                Description = "A romantic novel of manners", 
-                Price = 12.99m, 
+            new Book
+            {
+                Id = 9,
+                Name = "Pride and Prejudice",
+                Description = "A romantic novel of manners",
+                Price = 12.99m,
                 Code = "BK009",
                 DiscountPercent = 20,
                 InStock = true,
@@ -224,12 +221,12 @@ public class AppDbContext : DbContext
                 HoverImageUrl = "products/product-5.jpg",
                 AuthorId = 4
             },
-            new Book 
-            { 
-                Id = 10, 
-                Name = "Sense and Sensibility", 
-                Description = "A story of two sisters and their romantic adventures", 
-                Price = 13.99m, 
+            new Book
+            {
+                Id = 10,
+                Name = "Sense and Sensibility",
+                Description = "A story of two sisters and their romantic adventures",
+                Price = 13.99m,
                 Code = "BK010",
                 DiscountPercent = 15,
                 InStock = true,
@@ -239,12 +236,12 @@ public class AppDbContext : DbContext
                 HoverImageUrl = "products/product-7.jpg",
                 AuthorId = 4
             },
-            new Book 
-            { 
-                Id = 11, 
-                Name = "Emma", 
-                Description = "A comedy of manners about youthful hubris", 
-                Price = 14.50m, 
+            new Book
+            {
+                Id = 11,
+                Name = "Emma",
+                Description = "A comedy of manners about youthful hubris",
+                Price = 14.50m,
                 Code = "BK011",
                 DiscountPercent = 10,
                 InStock = true,
@@ -254,14 +251,14 @@ public class AppDbContext : DbContext
                 HoverImageUrl = "products/product-9.jpg",
                 AuthorId = 4
             },
-            
+
             // Mark Twain - 2 books
-            new Book 
-            { 
-                Id = 12, 
-                Name = "Adventures of Huckleberry Finn", 
-                Description = "A classic American adventure novel", 
-                Price = 13.50m, 
+            new Book
+            {
+                Id = 12,
+                Name = "Adventures of Huckleberry Finn",
+                Description = "A classic American adventure novel",
+                Price = 13.50m,
                 Code = "BK012",
                 DiscountPercent = 5,
                 InStock = true,
@@ -271,12 +268,12 @@ public class AppDbContext : DbContext
                 HoverImageUrl = "products/product-11.jpg",
                 AuthorId = 5
             },
-            new Book 
-            { 
-                Id = 13, 
-                Name = "The Adventures of Tom Sawyer", 
-                Description = "A boy's adventures in a Mississippi River town", 
-                Price = 12.99m, 
+            new Book
+            {
+                Id = 13,
+                Name = "The Adventures of Tom Sawyer",
+                Description = "A boy's adventures in a Mississippi River town",
+                Price = 12.99m,
                 Code = "BK013",
                 DiscountPercent = 5,
                 InStock = true,
@@ -286,14 +283,14 @@ public class AppDbContext : DbContext
                 HoverImageUrl = "products/product-13.jpg",
                 AuthorId = 5
             },
-            
+
             // J.K. Rowling - 3 books
-            new Book 
-            { 
-                Id = 14, 
-                Name = "Harry Potter and the Philosopher's Stone", 
-                Description = "A young wizard's first year at Hogwarts", 
-                Price = 19.99m, 
+            new Book
+            {
+                Id = 14,
+                Name = "Harry Potter and the Philosopher's Stone",
+                Description = "A young wizard's first year at Hogwarts",
+                Price = 19.99m,
                 Code = "BK014",
                 DiscountPercent = 25,
                 InStock = true,
@@ -303,12 +300,12 @@ public class AppDbContext : DbContext
                 HoverImageUrl = "products/product-2.jpg",
                 AuthorId = 6
             },
-            new Book 
-            { 
-                Id = 15, 
-                Name = "Harry Potter and the Chamber of Secrets", 
-                Description = "Harry's second year at Hogwarts", 
-                Price = 20.99m, 
+            new Book
+            {
+                Id = 15,
+                Name = "Harry Potter and the Chamber of Secrets",
+                Description = "Harry's second year at Hogwarts",
+                Price = 20.99m,
                 Code = "BK015",
                 DiscountPercent = 20,
                 InStock = true,
@@ -318,12 +315,12 @@ public class AppDbContext : DbContext
                 HoverImageUrl = "products/product-4.jpg",
                 AuthorId = 6
             },
-            new Book 
-            { 
-                Id = 16, 
-                Name = "Harry Potter and the Prisoner of Azkaban", 
-                Description = "Harry's third year brings new dangers", 
-                Price = 21.99m, 
+            new Book
+            {
+                Id = 16,
+                Name = "Harry Potter and the Prisoner of Azkaban",
+                Description = "Harry's third year brings new dangers",
+                Price = 21.99m,
                 Code = "BK016",
                 DiscountPercent = 20,
                 InStock = true,
@@ -333,14 +330,14 @@ public class AppDbContext : DbContext
                 HoverImageUrl = "products/product-6.jpg",
                 AuthorId = 6
             },
-            
+
             // Ernest Hemingway - 2 books
-            new Book 
-            { 
-                Id = 17, 
-                Name = "The Old Man and the Sea", 
-                Description = "An aging fisherman's epic struggle with a giant marlin", 
-                Price = 16.50m, 
+            new Book
+            {
+                Id = 17,
+                Name = "The Old Man and the Sea",
+                Description = "An aging fisherman's epic struggle with a giant marlin",
+                Price = 16.50m,
                 Code = "BK017",
                 DiscountPercent = 10,
                 InStock = true,
@@ -350,12 +347,12 @@ public class AppDbContext : DbContext
                 HoverImageUrl = "products/product-8.jpg",
                 AuthorId = 7
             },
-            new Book 
-            { 
-                Id = 18, 
-                Name = "A Farewell to Arms", 
-                Description = "A love story set during World War I", 
-                Price = 17.99m, 
+            new Book
+            {
+                Id = 18,
+                Name = "A Farewell to Arms",
+                Description = "A love story set during World War I",
+                Price = 17.99m,
                 Code = "BK018",
                 DiscountPercent = 5,
                 InStock = true,
@@ -435,7 +432,7 @@ public class AppDbContext : DbContext
             // A Farewell to Arms
             new BookTag { BookId = 18, TagId = 1 }, // Fiction
             new BookTag { BookId = 18, TagId = 2 }, // Classic
-            new BookTag { BookId = 18, TagId = 4 }  // Romance
+            new BookTag { BookId = 18, TagId = 4 } // Romance
         );
 
         // Seed Data for BookImages (Additional images for books)
@@ -494,6 +491,4 @@ public class AppDbContext : DbContext
             new Setting { Key = "address", Value = "123 Book Street, Reading City, RC 12345" }
         );
     }
-
-    
 }

@@ -38,6 +38,7 @@ public class AuthorController(AppDbContext dbContext) : Controller
         return View();
     }
     [HttpPost]
+    [ValidateAntiForgeryToken]
     public IActionResult Create(Author author )
     {
         if (!ModelState.IsValid)
