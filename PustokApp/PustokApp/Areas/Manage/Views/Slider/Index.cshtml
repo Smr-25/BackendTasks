@@ -50,7 +50,7 @@
                             <td>@slider.ButtonUrl</td>
                             <td>@slider.Order</td>
                             <td>
-                                <a asp-action="Detail" asp-route-id="@slider.Id" class="btn btn-sm btn-primary">
+                                <a asp-action="Detail" asp-route-id="@slider.Id" class="btn btn-sm btn-primary sliderDetailBtn">
                                     <i class="fas fa-eye"></i>
                                 </a>
                                 <a asp-action="Update" asp-route-id="@slider.Id" class="btn btn-sm btn-warning">
@@ -81,9 +81,35 @@
     </div>
 </div>
 
+<!-- Slider Detail Modal -->
+<div class="modal fade" id="sliderDetailModal" tabindex="-1" aria-labelledby="sliderDetailModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <!-- Modal content will be loaded here -->
+    </div>
+</div>
+
 @section Scripts {
     <script>
         $(document).ready(function () {
+            // Slider Detail Modal
+            $('.sliderDetailBtn').on('click', function (e) {
+                e.preventDefault();
+                var url = $(this).attr('href');
+                
+                fetch(url)
+                    .then(response => response.text())
+                    .then(data => {
+                        $('#sliderDetailModal .modal-dialog').html(data);
+                        
+                        // Show modal (works with both Bootstrap 4 and 5)
+                        $('#sliderDetailModal').modal('show');
+                    })
+                    .catch(error => {
+                        console.error('Error loading slider details:', error);
+                        Swal.fire("Error", "Failed to load slider details", "error");
+                    });
+            });
+
             // Delete Slider 
             $('.deleteSlider').on('click', function (e) {
                 e.preventDefault();
@@ -101,11 +127,11 @@
                     if (result.isConfirmed) {
                         fetch(link).then(response => {
                             if (response.ok) {
-                                Swal.fire("Deleted!", "Author has been deleted.", "success").then(() => {
+                                Swal.fire("Deleted!", "Slider has been deleted.", "success").then(() => {
                                     location.reload();
                                 });
                             } else {
-                                Swal.fire("Error", "Failed to delete author", "error");
+                                Swal.fire("Error", "Failed to delete slider", "error");
                             }
                         }).catch(error => {
                             Swal.fire("Error", "An error occurred", "error");

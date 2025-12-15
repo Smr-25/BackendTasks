@@ -19,4 +19,12 @@ public static class FileManager
     {
         return file.Length >= sizeInMb * 1024 * 1024;
     }
+    
+    public static void DeleteFile(string path)
+    {
+        if (File.Exists(path))
+        {
+            File.Delete(path);
+        }
+    }
 }

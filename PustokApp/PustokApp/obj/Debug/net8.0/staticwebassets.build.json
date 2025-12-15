@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "N7hZIsLs/bUB04ayHdCnthshJwSbTWxbqD+oX6VpJ9c=",
+  "Hash": "0n//2F65Sv9W1d6Ot1p/2u98FAqL5F+TxQVRHAoEOXs=",
   "Source": "PustokApp",
   "BasePath": "_content/PustokApp",
   "Mode": "Default",
@@ -35811,25 +35811,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/fonts/Material-Design-Iconic-Fontd1f1.woff2"
-    },
-    {
-      "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/bg-images/85de0777-1f9f-40dd-abd2-5565dc18758e.jpeg",
-      "SourceId": "PustokApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/",
-      "BasePath": "_content/PustokApp",
-      "RelativePath": "assets/image/bg-images/85de0777-1f9f-40dd-abd2-5565dc18758e.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/image/bg-images/85de0777-1f9f-40dd-abd2-5565dc18758e.jpeg"
     },
     {
       "Identity": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/PustokApp/PustokApp/wwwroot/assets/image/bg-images/best-seller-bg.jpg",
