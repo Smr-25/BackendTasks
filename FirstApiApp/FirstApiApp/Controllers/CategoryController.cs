@@ -15,7 +15,7 @@ public class CategoryController : ControllerBase
     };
 
     [HttpGet]
-    public IActionResult GetCategories()
+    public IActionResult Get()
     {
         return Ok(categories);
     }

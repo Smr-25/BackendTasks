@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\samiraa\\Desktop\\BACKEND\\BackendTasks\\FirstApiApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B9505CAD-FCB5-446F-8718-23B5D56B6F46}|FirstApiApp\\FirstApiApp.csproj|c:\\users\\samiraa\\desktop\\backend\\backendtasks\\firstapiapp\\firstapiapp\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9505CAD-FCB5-446F-8718-23B5D56B6F46}|FirstApiApp\\FirstApiApp.csproj|solutionrelative:firstapiapp\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9505CAD-FCB5-446F-8718-23B5D56B6F46}|FirstApiApp\\FirstApiApp.csproj|c:\\users\\samiraa\\desktop\\backend\\backendtasks\\firstapiapp\\firstapiapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9505CAD-FCB5-446F-8718-23B5D56B6F46}|FirstApiApp\\FirstApiApp.csproj|solutionrelative:firstapiapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9505CAD-FCB5-446F-8718-23B5D56B6F46}|FirstApiApp\\FirstApiApp.csproj|c:\\users\\samiraa\\desktop\\backend\\backendtasks\\firstapiapp\\firstapiapp\\firstapiapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{B9505CAD-FCB5-446F-8718-23B5D56B6F46}|FirstApiApp\\FirstApiApp.csproj|solutionrelative:firstapiapp\\firstapiapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9505CAD-FCB5-446F-8718-23B5D56B6F46}|FirstApiApp\\FirstApiApp.csproj|c:\\users\\samiraa\\desktop\\backend\\backendtasks\\firstapiapp\\firstapiapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9505CAD-FCB5-446F-8718-23B5D56B6F46}|FirstApiApp\\FirstApiApp.csproj|solutionrelative:firstapiapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9505CAD-FCB5-446F-8718-23B5D56B6F46}|FirstApiApp\\FirstApiApp.csproj|c:\\users\\samiraa\\desktop\\backend\\backendtasks\\firstapiapp\\firstapiapp\\firstapiapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B9505CAD-FCB5-446F-8718-23B5D56B6F46}|FirstApiApp\\FirstApiApp.csproj|solutionrelative:firstapiapp\\firstapiapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\10.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\samiraa\\Desktop\\BACKEND\\BackendTasks\\FirstApiApp\\FirstApiApp\\Program.cs",
+              "RelativeDocumentMoniker": "FirstApiApp\\Program.cs",
+              "ToolTip": "C:\\Users\\samiraa\\Desktop\\BACKEND\\BackendTasks\\FirstApiApp\\FirstApiApp\\Program.cs",
+              "RelativeToolTip": "FirstApiApp\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T13:33:56.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FirstApiApp.http",
+              "DocumentMoniker": "C:\\Users\\samiraa\\Desktop\\BACKEND\\BackendTasks\\FirstApiApp\\FirstApiApp\\FirstApiApp.http",
+              "RelativeDocumentMoniker": "FirstApiApp\\FirstApiApp.http",
+              "ToolTip": "C:\\Users\\samiraa\\Desktop\\BACKEND\\BackendTasks\\FirstApiApp\\FirstApiApp\\FirstApiApp.http",
+              "RelativeToolTip": "FirstApiApp\\FirstApiApp.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-12-25T13:31:34.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\samiraa\\Desktop\\BACKEND\\BackendTasks\\FirstApiApp\\FirstApiApp\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "FirstApiApp\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\samiraa\\Desktop\\BACKEND\\BackendTasks\\FirstApiApp\\FirstApiApp\\Controllers\\CategoryController.cs*",
+              "RelativeToolTip": "FirstApiApp\\Controllers\\CategoryController.cs*",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwBIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T13:31:02.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\samiraa\\Desktop\\BACKEND\\BackendTasks\\FirstApiApp\\FirstApiApp\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "FirstApiApp\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\samiraa\\Desktop\\BACKEND\\BackendTasks\\FirstApiApp\\FirstApiApp\\Models\\Product.cs",
+              "RelativeToolTip": "FirstApiApp\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T13:29:42.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FirstApiApp",
+              "DocumentMoniker": "C:\\Users\\samiraa\\Desktop\\BACKEND\\BackendTasks\\FirstApiApp\\FirstApiApp\\FirstApiApp.csproj",
+              "RelativeDocumentMoniker": "FirstApiApp\\FirstApiApp.csproj",
+              "ToolTip": "C:\\Users\\samiraa\\Desktop\\BACKEND\\BackendTasks\\FirstApiApp\\FirstApiApp\\FirstApiApp.csproj",
+              "RelativeToolTip": "FirstApiApp\\FirstApiApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-25T13:21:21.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Microsoft.NET.Sdk.DefaultItems.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\10.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAjwIgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-12-25T13:20:25.567Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
