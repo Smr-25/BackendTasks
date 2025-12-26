@@ -1,49 +1,54 @@
+using AutoMapper;
 using FirstApiApp.Data;
+using FirstApiApp.Dtos.Products;
 using FirstApiApp.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace FirstApiApp.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class ProductController(AppDbContext dbContext) : ControllerBase
+public class ProductController(AppDbContext dbContext,IMapper mapper) : ControllerBase
 {
     [HttpGet]
     public IActionResult Get()
     {
-        var products = dbContext.Products.ToList();
-        return Ok(products);
+        var products = dbContext.Products.Include(p=>p.Category).ToList();
+        var productsReturnDto = mapper.Map<List<ProductReturnDto>>(products);
+        return Ok(productsReturnDto);
     }
 
     [HttpGet("{id}")]
     public IActionResult Get(int id)
     {
-        var product = dbContext.Products.FirstOrDefault(p => p.Id == id);
+        var product = dbContext.Products.Include(p=>p.Category).FirstOrDefault(p => p.Id == id);
         if (product == null)
             return NotFound();
-        return Ok(product);
+        var productReturnDto = mapper.Map<ProductReturnDto>(product);
+        return Ok(productReturnDto);
     }
 
     [HttpPost]
-    public IActionResult Post([FromBody] Product product)
+    public IActionResult Post([FromBody] ProductCreateDto productCreateDto)
     {
+        if (!dbContext.Categories.Any(c => c.Id == productCreateDto.CategoryId))
+            return BadRequest();
+        var product = mapper.Map<Product>(productCreateDto);
         dbContext.Products.Add(product);
         dbContext.SaveChanges();
-        return CreatedAtAction(nameof(Get), new { id = product.Id }, product);
+        return StatusCode(StatusCodes.Status201Created);
     }
 
     [HttpPut("{id}")]
-    public IActionResult Put(int id, [FromBody] Product updatedProduct)
+    public IActionResult Put(int id, [FromBody] ProductUpdateDto updatedProduct)
     {
         var existingProduct = dbContext.Products.FirstOrDefault(p => p.Id == id);
         if (existingProduct == null)
             return NotFound();
         if (dbContext.Categories.Any(c => c.Id == existingProduct.CategoryId))
             return BadRequest();
-        existingProduct.Name = updatedProduct.Name;
-        existingProduct.Description = updatedProduct.Description;
-        existingProduct.Price = updatedProduct.Price;
-        existingProduct.CategoryId = updatedProduct.CategoryId;
+        mapper.Map(updatedProduct, existingProduct);
         dbContext.SaveChanges();
         return NoContent();
     }
@@ -60,8 +65,9 @@ public class ProductController(AppDbContext dbContext) : ControllerBase
     }
 
     [HttpPost("bulk")]
-    public IActionResult PostBulky([FromBody] List<Product> products)
+    public IActionResult PostBulky([FromBody] List<ProductCreateDto> productCreateDtos)
     {
+        var products = mapper.Map<List<Product>>(productCreateDtos);
         dbContext.Products.AddRange(products);
         dbContext.SaveChanges();
         return Ok();

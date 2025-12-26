@@ -1,46 +1,55 @@
+using AutoMapper;
 using FirstApiApp.Data;
+using FirstApiApp.Dtos.Categories;
 using FirstApiApp.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace FirstApiApp.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class CategoryController(AppDbContext dbContext) : ControllerBase
+public class CategoryController(AppDbContext dbContext, IMapper mapper) : ControllerBase
 {
     [HttpGet]
     public IActionResult Get()
     {
         var categories = dbContext.Categories.ToList();
-        return Ok(categories);
+        var categoriesDto = mapper.Map<List<CategoryReturnDto>>(categories);
+        return Ok(categoriesDto);
     }
 
     [HttpGet("{id}")]
     public IActionResult Get(int id)
     {
-        var category = dbContext.Categories.FirstOrDefault(c => c.Id == id);
+        var category = dbContext.Categories.Include(c => c.Products).FirstOrDefault(c => c.Id == id);
         if (category == null)
             return NotFound();
 
-        return Ok(category);
+        var categoryDto = mapper.Map<CategoryReturnDto>(category);
+        return Ok(categoryDto);
     }
 
     [HttpPost]
-    public IActionResult Post([FromBody] Category category)
+    public IActionResult Post([FromBody] CategoryCreateDto categoryCreateDto)
     {
+        if (dbContext.Categories.Any(c => c.Name == categoryCreateDto.Name))
+            return Conflict();
+        var category = mapper.Map<Category>(categoryCreateDto);
         dbContext.Categories.Add(category);
         dbContext.SaveChanges();
-        return CreatedAtAction(nameof(Get), new { id = category.Id }, category);
+        return StatusCode(StatusCodes.Status201Created);
     }
 
     [HttpPut("{id}")]
-    public IActionResult Put(int id, [FromBody] Category updatedCategory)
+    public IActionResult Put(int id, [FromBody] CategoryUpdateDto updatedCategory)
     {
         var category = dbContext.Categories.FirstOrDefault(c => c.Id == id);
         if (category == null)
             return NotFound();
-        category.Name = updatedCategory.Name;
-        category.Description = updatedCategory.Description;
+        if (dbContext.Categories.Any(c => c.Id == id && c.Name == updatedCategory.Name))
+            return Conflict();
+        mapper.Map(updatedCategory, category);
         dbContext.SaveChanges();
         return NoContent();
     }
@@ -55,10 +64,11 @@ public class CategoryController(AppDbContext dbContext) : ControllerBase
         dbContext.SaveChanges();
         return NoContent();
     }
-    
+
     [HttpPost("bulk")]
-    public IActionResult PostBulky([FromBody] List<Category> categories)
+    public IActionResult PostBulky([FromBody] List<CategoryCreateDto> categoryCreateDtos)
     {
+        var categories = mapper.Map<List<Category>>(categoryCreateDtos);
         dbContext.Categories.AddRange(categories);
         dbContext.SaveChanges();
         return Ok();

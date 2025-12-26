@@ -8,4 +8,5 @@ public class Category
     public DateTime CreatedDate { get; set; }
     public DateTime? UptadeDate { get; set; }
     public List<Product> Products { get; set; }
+    public int ProductsCount { get; set; }
 }
