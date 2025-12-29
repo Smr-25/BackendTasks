@@ -1,0 +1,71 @@
+@model Slider
+
+@{
+    ViewData["Title"] = "Update Sliders";
+}
+<div class="container">
+    <div class="row">
+        <form method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="Title"></label>
+                <input asp-for="Title" aria-describedby="emailHelp">
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description"></label>
+                <input asp-for="Description" aria-describedby="emailHelp">
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ButtonText"></label>
+                <input asp-for="ButtonText" aria-describedby="emailHelp">
+                <span asp-validation-for="ButtonText" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ButtonUrl"></label>
+                <input asp-for="ButtonUrl" aria-describedby="emailHelp">
+                <span asp-validation-for="ButtonUrl" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Order"></label>
+                <input asp-for="Order" aria-describedby="emailHelp">
+                <span asp-validation-for="Order" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageFile"></label>
+                <input asp-for="ImageFile" accept="image/*" aria-describedby="emailHelp">
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
+                @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                {
+                    <img id="previewImage" height="200" width="200" src="~/assets/image/@Model.ImageUrl"
+                         alt="Current Image"/>
+                }
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.21.0/jquery.validate.min.js"
+            integrity="sha512-KFHXdr2oObHKI9w4Hv1XPKc898mE4kgYx58oqsc/JqqdLMDI4YjOLzom+EMlW8HFUd0QfjfAvxSL6sEq/a42fQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js"
+        integrity="sha512-xq+Vm8jC94ynOikewaQXMEkJIOBp7iArs3IhFWSWdRT3Pq8wFz46p+ZDFAR7kHnSFf+zUv52B3prRYnbDRdgog=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        var fileInput = document.querySelector("input[type='file']");
+        var reader = new FileReader();
+        fileInput.addEventListener("change", function (e) {
+            var file = e.target.files[0];
+            reader.onloadend = function (ev) {
+                let image = document.querySelector("#previewImage");
+                image.setAttribute("src", ev.target.result);
+            }
+
+            reader.readAsDataURL(file);
+
+        })
+    </script>
+}

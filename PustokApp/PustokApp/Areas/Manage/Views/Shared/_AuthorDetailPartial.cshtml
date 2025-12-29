@@ -1,0 +1,118 @@
+@model Author
+
+<div class="modal-content">
+    <div class="modal-header bg-primary text-white">
+        <h5 class="modal-title">
+            <i class="fas fa-user-circle"></i> Author Details
+        </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+        <div class="row">
+            <!-- Author Information -->
+            <div class="col-md-12">
+                <div class="card border-0 shadow-sm mb-3">
+                    <div class="card-body">
+                        <h6 class="card-subtitle mb-3 text-muted">
+                            <i class="fas fa-info-circle"></i> Author Information
+                        </h6>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label fw-bold text-secondary">ID:</label>
+                                <p class="form-control-plaintext">@Model.Id</p>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label fw-bold text-secondary">Name:</label>
+                                <p class="form-control-plaintext">@Model.Name</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Books List -->
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body">
+                        <h6 class="card-subtitle mb-3 text-muted">
+                            <i class="fas fa-book"></i> Books (@(Model.Books?.Count ?? 0))
+                        </h6>
+                        @if (Model.Books?.Any() == true)
+                        {
+                            <div class="table-responsive">
+                                <table class="table table-sm table-hover">
+                                    <thead class="table-light">
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Book Name</th>
+                                        <th>Price</th>
+                                        <th>Discount</th>
+                                        <th>Stock</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    @foreach (var book in Model.Books)
+                                    {
+                                        <tr>
+                                            <td>@book.Id</td>
+                                            <td>
+                                                <strong>@book.Name</strong>
+                                                @if (book.IsNew)
+                                                {
+                                                    <span class="badge bg-success ms-1">New</span>
+                                                }
+                                                @if (book.IsFeatured)
+                                                {
+                                                    <span class="badge bg-warning text-dark ms-1">Featured</span>
+                                                }
+                                            </td>
+                                            <td>$@book.Price.ToString("F2")</td>
+                                            <td>
+                                                @if (book.DiscountPercent > 0)
+                                                {
+                                                    <span class="badge bg-danger">@book.DiscountPercent%</span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="text-muted">-</span>
+                                                }
+                                            </td>
+                                            <td>
+                                                @if (book.InStock)
+                                                {
+                                                    <span class="badge bg-success">
+                                                            <i class="fas fa-check"></i> In Stock
+                                                        </span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="badge bg-secondary">
+                                                            <i class="fas fa-times"></i> Out of Stock
+                                                        </span>
+                                                }
+                                            </td>
+                                        </tr>
+                                    }
+                                    </tbody>
+                                </table>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="alert alert-info mb-0">
+                                <i class="fas fa-info-circle"></i> This author has no books yet.
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            <i class="fas fa-times"></i> Close
+        </button>
+        <a asp-action="Update" asp-route-id="@Model.Id" class="btn btn-warning">
+            <i class="fas fa-edit"></i> Edit Author
+        </a>
+    </div>
+</div>
+

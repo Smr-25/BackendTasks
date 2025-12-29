@@ -1,0 +1,90 @@
+@model Slider
+
+<div class="modal-content">
+    <div class="modal-header bg-primary text-white">
+        <h5 class="modal-title">
+            <i class="fas fa-images"></i> Slider Details
+        </h5>
+        <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <div class="row">
+            <!-- Slider Image -->
+            <div class="col-md-12 mb-4">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <img src="~/assets/image/@Model.ImageUrl" alt="@Model.Title"
+                             class="img-fluid rounded" style="max-height: 400px; width: 100%; object-fit: cover;"/>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slider Information -->
+            <div class="col-md-12">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body">
+                        <h6 class="card-subtitle mb-3 text-muted">
+                            <i class="fas fa-info-circle"></i> Slider Information
+                        </h6>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label fw-bold text-secondary">ID:</label>
+                                <p class="form-control-plaintext">@Model.Id</p>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label fw-bold text-secondary">Order:</label>
+                                <p class="form-control-plaintext">
+                                    <span class="badge bg-info">@Model.Order</span>
+                                </p>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <label class="form-label fw-bold text-secondary">Title:</label>
+                                <p class="form-control-plaintext">@Model.Title</p>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <label class="form-label fw-bold text-secondary">Description:</label>
+                                <p class="form-control-plaintext">@Model.Description</p>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label fw-bold text-secondary">Button Text:</label>
+                                <p class="form-control-plaintext">
+                                    @if (!string.IsNullOrEmpty(Model.ButtonText))
+                                    {
+                                        <span class="badge bg-primary">@Model.ButtonText</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="text-muted">-</span>
+                                    }
+                                </p>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label fw-bold text-secondary">Button URL:</label>
+                                <p class="form-control-plaintext">
+                                    @if (!string.IsNullOrEmpty(Model.ButtonUrl))
+                                    {
+                                        <a href="@Model.ButtonUrl" target="_blank" class="text-decoration-none">
+                                            @Model.ButtonUrl <i class="fas fa-external-link-alt ms-1"></i>
+                                        </a>
+                                    }
+                                    else
+                                    {
+                                        <span class="text-muted">-</span>
+                                    }
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a asp-action="Update" asp-route-id="@Model.Id" class="btn btn-warning">
+            <i class="fas fa-edit"></i> Edit
+        </a>
+    </div>
+</div>
+
