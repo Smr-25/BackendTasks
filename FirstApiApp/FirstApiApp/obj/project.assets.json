@@ -153,6 +153,22 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/10.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.0"
+        },
+        "compile": {
+          "lib/net10.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.OpenApi/8.0.20": {
         "type": "package",
         "dependencies": {
@@ -1581,6 +1597,22 @@
         "lib/net9.0/MicroElements.Swashbuckle.FluentValidation.xml",
         "microelements.swashbuckle.fluentvalidation.7.0.3.nupkg.sha512",
         "microelements.swashbuckle.fluentvalidation.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/10.0.0": {
+      "sha512": "mH1+58nbX5RWSd8hajSnXSdpQ1MN3oca488Zd+DvKX2nPTAyTVNRzubMV06BmPcjOZ9waLr/AjwcNiCQ8bCscQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.identity.entityframeworkcore/10.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net10.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll",
+        "lib/net10.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml",
+        "microsoft.aspnetcore.identity.entityframeworkcore.10.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.identity.entityframeworkcore.nuspec"
       ]
     },
     "Microsoft.AspNetCore.OpenApi/8.0.20": {
@@ -4163,6 +4195,7 @@
       "AutoMapper >= 16.0.0",
       "FluentValidation.AspNetCore >= 11.3.1",
       "MicroElements.Swashbuckle.FluentValidation >= 7.0.3",
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 10.0.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.20",
       "Microsoft.EntityFrameworkCore >= 10.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 10.0.0",
@@ -4224,6 +4257,10 @@
           "MicroElements.Swashbuckle.FluentValidation": {
             "target": "Package",
             "version": "[7.0.3, )"
+          },
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[10.0.0, )"
           },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",

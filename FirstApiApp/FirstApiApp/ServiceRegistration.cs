@@ -1,9 +1,11 @@
 using FirstApiApp.Data;
 using FirstApiApp.Dtos.Categories;
+using FirstApiApp.Models;
 using FirstApiApp.Profiles;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using MicroElements.Swashbuckle.FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace FirstApiApp;
@@ -28,6 +30,13 @@ public static class ServiceRegistration
         });
         services.AddHttpContextAccessor();
         // services.AddFluentValidationRulesToSwagger();   
+        services.AddIdentity<AppUser,IdentityRole>(opt=>
+        {
+            opt.Password.RequireNonAlphanumeric = true;
+            opt.Password.RequireUppercase = true;
+            opt.Password.RequireLowercase = true;
+            opt.Password.RequiredLength = 6;
+        }).AddEntityFrameworkStores<AppDbContext>();
     }
     
 }
