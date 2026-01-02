@@ -18,9 +18,10 @@ public static class ServiceRegistration
         });
         services.AddAutoMapper(opt=>
         {
-            opt.AddProfile<MapProfile>();
+            opt.AddProfile(new MapProfile(new HttpContextAccessor()));
         });
-        
+        services.AddHttpContextAccessor();
+
     }
     
 }

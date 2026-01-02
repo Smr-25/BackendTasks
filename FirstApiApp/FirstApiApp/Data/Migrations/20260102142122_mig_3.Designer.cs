@@ -4,6 +4,7 @@ using FirstApiApp.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FirstApiApp.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260102142122_mig_3")]
+    partial class mig_3
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -48,6 +51,9 @@ namespace FirstApiApp.Data.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
+                    b.Property<int>("ProductsCount")
+                        .HasColumnType("int");
+
                     b.Property<DateTime?>("UptadeDate")
                         .HasColumnType("datetime2");
 
@@ -62,7 +68,8 @@ namespace FirstApiApp.Data.Migrations
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "This is a sample category 1",
                             ImageUrl = "sample.jpg",
-                            Name = "Sample Category 1"
+                            Name = "Sample Category 1",
+                            ProductsCount = 0
                         },
                         new
                         {
@@ -70,7 +77,8 @@ namespace FirstApiApp.Data.Migrations
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "This is a sample category 2",
                             ImageUrl = "sample.jpg",
-                            Name = "Sample Category 2"
+                            Name = "Sample Category 2",
+                            ProductsCount = 0
                         },
                         new
                         {
@@ -78,7 +86,8 @@ namespace FirstApiApp.Data.Migrations
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "This is a sample category 3",
                             ImageUrl = "sample.jpg",
-                            Name = "Sample Category 3"
+                            Name = "Sample Category 3",
+                            ProductsCount = 0
                         },
                         new
                         {
@@ -86,7 +95,8 @@ namespace FirstApiApp.Data.Migrations
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "This is a sample category 4",
                             ImageUrl = "sample.jpg",
-                            Name = "Sample Category 4"
+                            Name = "Sample Category 4",
+                            ProductsCount = 0
                         },
                         new
                         {
@@ -94,7 +104,8 @@ namespace FirstApiApp.Data.Migrations
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "This is a sample category 5",
                             ImageUrl = "sample.jpg",
-                            Name = "Sample Category 5"
+                            Name = "Sample Category 5",
+                            ProductsCount = 0
                         });
                 });
 
