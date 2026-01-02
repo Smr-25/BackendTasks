@@ -1,5 +1,9 @@
 using FirstApiApp.Data;
+using FirstApiApp.Dtos.Categories;
 using FirstApiApp.Profiles;
+using FluentValidation;
+using FluentValidation.AspNetCore;
+using MicroElements.Swashbuckle.FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace FirstApiApp;
@@ -10,8 +14,10 @@ public static class ServiceRegistration
     {
         services.AddEndpointsApiExplorer();
         services.AddSwaggerGen();
-
         services.AddControllers();
+        services.AddValidatorsFromAssemblyContaining<CategoryCreateDtoValidator>();
+        services.AddFluentValidationAutoValidation();
+        services.AddFluentValidationClientsideAdapters();
         services.AddDbContext<AppDbContext>(options =>
         {
             options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
@@ -21,7 +27,7 @@ public static class ServiceRegistration
             opt.AddProfile(new MapProfile(new HttpContextAccessor()));
         });
         services.AddHttpContextAccessor();
-
+        // services.AddFluentValidationRulesToSwagger();   
     }
     
 }
