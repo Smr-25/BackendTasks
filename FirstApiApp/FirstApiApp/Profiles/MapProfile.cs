@@ -20,6 +20,7 @@ public class MapProfile : Profile
         };
         var url = urlBuilder.Uri.AbsoluteUri;
         CreateMap<Product, ProductReturnDto>();
+        CreateMap<ProductColor, ColorInProductReturnDto>();
         CreateMap<Category, CategoryInProductReturnDto>();
         CreateMap<CategoryCreateDto, Category>()
             .ForMember(dest => dest.ImageUrl, opt => opt.MapFrom(src => src.File.SaveFile("wwwroot/images/")));

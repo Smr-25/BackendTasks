@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 
 namespace FirstApiApp;
 
@@ -21,7 +22,31 @@ public static class ServiceRegistration
     {
         services.AddAppSettingsMultiPlatformJson(builder, "Mac");
         services.AddEndpointsApiExplorer();
-        services.AddSwaggerGen();
+        services.AddSwaggerGen(options =>
+            {
+                options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
+                {
+                    Name = "Authorization",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.Http,
+                    Scheme = "Bearer",
+                });
+                options.AddSecurityRequirement(new OpenApiSecurityRequirement()
+                {
+                    {
+                        new OpenApiSecurityScheme()
+                        {
+                            Reference = new OpenApiReference()
+                            {
+                                Type = ReferenceType.SecurityScheme,
+                                Id = "Bearer"
+                            }
+                        },
+                        Array.Empty<string>()
+                    }
+                });
+            }
+        );
         services.AddControllers();
         services.AddValidatorsFromAssemblyContaining<CategoryCreateDtoValidator>();
         services.AddFluentValidationAutoValidation();
@@ -65,15 +90,16 @@ public static class ServiceRegistration
                 {
                     OnAuthenticationFailed = context =>
                     {
-                        if(context.Exception.GetType() == typeof(SecurityTokenExpiredException))
+                        if (context.Exception.GetType() == typeof(SecurityTokenExpiredException))
                         {
                             context.Response.StatusCode = StatusCodes.Status401Unauthorized;
                             context.Response.Headers.Add("Token-Expired", "true");
                             string message = "The token is expired. Please renew your token.";
-                            var json  = JsonSerializer.Serialize(new { Message = message });
+                            var json = JsonSerializer.Serialize(new { Message = message });
                             context.Response.ContentType = "application/json";
                             return context.Response.WriteAsync(json);
                         }
+
                         return Task.CompletedTask;
                     }
                 };
