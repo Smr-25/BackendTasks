@@ -32,8 +32,6 @@ namespace FirstApiApp.Data.Migrations
                 columns: table => new
                 {
                     Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    Discriminator = table.Column<string>(type: "nvarchar(13)", maxLength: 13, nullable: false),
-                    FullName = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
@@ -62,7 +60,7 @@ namespace FirstApiApp.Data.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     Description = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: true),
-                    CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2026, 1, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)),
+                    CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2026, 1, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)),
                     UptadeDate = table.Column<DateTime>(type: "datetime2", nullable: true),
                     ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
@@ -187,7 +185,7 @@ namespace FirstApiApp.Data.Migrations
                     Description = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: true),
                     Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     CategoryId = table.Column<int>(type: "int", nullable: false),
-                    CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2026, 1, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)),
+                    CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2026, 1, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)),
                     UptadeDate = table.Column<DateTime>(type: "datetime2", nullable: true)
                 },
                 constraints: table =>
@@ -202,26 +200,6 @@ namespace FirstApiApp.Data.Migrations
                 });
 
             migrationBuilder.InsertData(
-                table: "AspNetRoles",
-                columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-                values: new object[,]
-                {
-                    { "1", "cea35caf-748c-42d1-8cdc-02061fd03266", "Admin", "ADMIN" },
-                    { "2", "918b78f3-d50e-4c6e-8028-a55fbb943c2b", "User", "USER" },
-                    { "3", "5b2ac2f3-3964-41b6-a846-b7853366e189", "Manager", "MANAGER" }
-                });
-
-            migrationBuilder.InsertData(
-                table: "AspNetUsers",
-                columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Discriminator", "Email", "EmailConfirmed", "FullName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[,]
-                {
-                    { "1", 0, "f4d36501-4501-4716-bc1b-e5d3fc1e990f", "AppUser", "admin@gmail.com", true, "Admin ADMIN", false, null, "ADMIN@GMAIL.COM", "ADMIN", "AQAAAAIAAYagAAAAEBoQtaVzmj0QfYWlQV58jNc9jF/ds70P9NBhUlsByBye6dW2F5llbbn5ESGIn+HnIw==", null, false, "94fcb59f-8404-4cfe-b9d0-fb4c7dbee957", false, "Admin" },
-                    { "2", 0, "78ce9d08-116f-46ce-8d8a-67cc9d6dc263", "AppUser", "jane@gmail.com", true, "Jane Smith", false, null, null, "JANE.SMITH", "AQAAAAIAAYagAAAAEHuqZQnP6wZyhqvldfkfD+/4MQypUP+i9RsxAF0SlFC4FbJMqjrLG3FfYHqRhCltKQ==", null, false, "5c7e24c6-a60b-46ae-a68a-09fc78ca3e35", false, "jane.smith" },
-                    { "3", 0, "1c939ccd-44d9-498b-8981-8269e541a23d", "AppUser", "alice@gmail.com", true, "Alice Johnson", false, null, null, "ALICE.JOHNSON", "AQAAAAIAAYagAAAAEMrZeXta/uJTZeM5YNenxVwIkNSgu8VKBUmlGTdBOpPVg4rKJUlDgs/z+nPg9KwAug==", null, false, "62cfb4e8-bdc1-40e1-9175-1523e4162b59", false, "alice.johnson" }
-                });
-
-            migrationBuilder.InsertData(
                 table: "Categories",
                 columns: new[] { "Id", "Description", "ImageUrl", "Name", "UptadeDate" },
                 values: new object[,]
@@ -231,16 +209,6 @@ namespace FirstApiApp.Data.Migrations
                     { 3, "This is a sample category 3", "sample.jpg", "Sample Category 3", null },
                     { 4, "This is a sample category 4", "sample.jpg", "Sample Category 4", null },
                     { 5, "This is a sample category 5", "sample.jpg", "Sample Category 5", null }
-                });
-
-            migrationBuilder.InsertData(
-                table: "AspNetUserRoles",
-                columns: new[] { "RoleId", "UserId" },
-                values: new object[,]
-                {
-                    { "1", "1" },
-                    { "2", "2" },
-                    { "3", "3" }
                 });
 
             migrationBuilder.InsertData(

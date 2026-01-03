@@ -1,10 +1,10 @@
+using AppSettingsMultiPlatformPackage;
 using FirstApiApp.Data;
 using FirstApiApp.Dtos.Categories;
 using FirstApiApp.Models;
 using FirstApiApp.Profiles;
 using FluentValidation;
 using FluentValidation.AspNetCore;
-using MicroElements.Swashbuckle.FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,8 +12,9 @@ namespace FirstApiApp;
 
 public static class ServiceRegistration
 {
-    public static void AddServices(this IServiceCollection services, IConfiguration configuration)
+    public static void AddServices(this IServiceCollection services, IConfiguration configuration,WebApplicationBuilder builder)
     {
+        services.AddAppSettingsMultiPlatformJson(builder,"Mac");
         services.AddEndpointsApiExplorer();
         services.AddSwaggerGen();
         services.AddControllers();

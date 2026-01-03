@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FirstApiApp.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260102170353_mig_1")]
-    partial class mig_1
+    [Migration("20260103123932_mig_2")]
+    partial class mig_2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -36,7 +36,7 @@ namespace FirstApiApp.Data.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2026, 1, 2, 0, 0, 0, 0, DateTimeKind.Unspecified));
+                        .HasDefaultValue(new DateTime(2026, 1, 3, 0, 0, 0, 0, DateTimeKind.Unspecified));
 
                     b.Property<string>("Description")
                         .HasMaxLength(500)
@@ -115,7 +115,7 @@ namespace FirstApiApp.Data.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2026, 1, 2, 0, 0, 0, 0, DateTimeKind.Unspecified));
+                        .HasDefaultValue(new DateTime(2026, 1, 3, 0, 0, 0, 0, DateTimeKind.Unspecified));
 
                     b.Property<string>("Description")
                         .HasMaxLength(500)
@@ -256,29 +256,6 @@ namespace FirstApiApp.Data.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = "1",
-                            ConcurrencyStamp = "cea35caf-748c-42d1-8cdc-02061fd03266",
-                            Name = "Admin",
-                            NormalizedName = "ADMIN"
-                        },
-                        new
-                        {
-                            Id = "2",
-                            ConcurrencyStamp = "918b78f3-d50e-4c6e-8028-a55fbb943c2b",
-                            Name = "User",
-                            NormalizedName = "USER"
-                        },
-                        new
-                        {
-                            Id = "3",
-                            ConcurrencyStamp = "5b2ac2f3-3964-41b6-a846-b7853366e189",
-                            Name = "Manager",
-                            NormalizedName = "MANAGER"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -440,23 +417,6 @@ namespace FirstApiApp.Data.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetUserRoles", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            UserId = "1",
-                            RoleId = "1"
-                        },
-                        new
-                        {
-                            UserId = "2",
-                            RoleId = "2"
-                        },
-                        new
-                        {
-                            UserId = "3",
-                            RoleId = "3"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
@@ -486,57 +446,6 @@ namespace FirstApiApp.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasDiscriminator().HasValue("AppUser");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = "1",
-                            AccessFailedCount = 0,
-                            ConcurrencyStamp = "f4d36501-4501-4716-bc1b-e5d3fc1e990f",
-                            Email = "admin@gmail.com",
-                            EmailConfirmed = true,
-                            LockoutEnabled = false,
-                            NormalizedEmail = "ADMIN@GMAIL.COM",
-                            NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBoQtaVzmj0QfYWlQV58jNc9jF/ds70P9NBhUlsByBye6dW2F5llbbn5ESGIn+HnIw==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "94fcb59f-8404-4cfe-b9d0-fb4c7dbee957",
-                            TwoFactorEnabled = false,
-                            UserName = "Admin",
-                            FullName = "Admin ADMIN"
-                        },
-                        new
-                        {
-                            Id = "2",
-                            AccessFailedCount = 0,
-                            ConcurrencyStamp = "78ce9d08-116f-46ce-8d8a-67cc9d6dc263",
-                            Email = "jane@gmail.com",
-                            EmailConfirmed = true,
-                            LockoutEnabled = false,
-                            NormalizedUserName = "JANE.SMITH",
-                            PasswordHash = "AQAAAAIAAYagAAAAEHuqZQnP6wZyhqvldfkfD+/4MQypUP+i9RsxAF0SlFC4FbJMqjrLG3FfYHqRhCltKQ==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "5c7e24c6-a60b-46ae-a68a-09fc78ca3e35",
-                            TwoFactorEnabled = false,
-                            UserName = "jane.smith",
-                            FullName = "Jane Smith"
-                        },
-                        new
-                        {
-                            Id = "3",
-                            AccessFailedCount = 0,
-                            ConcurrencyStamp = "1c939ccd-44d9-498b-8981-8269e541a23d",
-                            Email = "alice@gmail.com",
-                            EmailConfirmed = true,
-                            LockoutEnabled = false,
-                            NormalizedUserName = "ALICE.JOHNSON",
-                            PasswordHash = "AQAAAAIAAYagAAAAEMrZeXta/uJTZeM5YNenxVwIkNSgu8VKBUmlGTdBOpPVg4rKJUlDgs/z+nPg9KwAug==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "62cfb4e8-bdc1-40e1-9175-1523e4162b59",
-                            TwoFactorEnabled = false,
-                            UserName = "alice.johnson",
-                            FullName = "Alice Johnson"
-                        });
                 });
 
             modelBuilder.Entity("FirstApiApp.Models.Product", b =>

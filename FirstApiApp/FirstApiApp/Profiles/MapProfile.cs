@@ -1,6 +1,7 @@
 using AutoMapper;
 using FirstApiApp.Dtos.Categories;
 using FirstApiApp.Dtos.Products;
+using FirstApiApp.Dtos.Users;
 using FirstApiApp.Helpers;
 using FirstApiApp.Models;
 
@@ -30,5 +31,6 @@ public class MapProfile : Profile
             .ForMember(dest => dest.ImageUrl, opt => opt.MapFrom(src => src.File.SaveFile("wwwroot/images/")));
         CreateMap<ProductUpdateDto, Product>();
         CreateMap<ProductCreateDto, Product>();
+        CreateMap<UserRegisterDto, AppUser>();
     }
 }

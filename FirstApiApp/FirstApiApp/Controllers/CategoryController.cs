@@ -3,6 +3,7 @@ using FirstApiApp.Data;
 using FirstApiApp.Dtos.Categories;
 using FirstApiApp.Helpers;
 using FirstApiApp.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,6 +11,7 @@ namespace FirstApiApp.Controllers;
 
 [ApiController]
 [Route("[controller]")]
+[Authorize]
 public class CategoryController(AppDbContext dbContext, IMapper mapper, IWebHostEnvironment environment) : ControllerBase
 {
     [HttpGet]
