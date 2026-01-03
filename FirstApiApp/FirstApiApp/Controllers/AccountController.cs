@@ -4,6 +4,8 @@ using System.Text;
 using AutoMapper;
 using FirstApiApp.Dtos.Users;
 using FirstApiApp.Models;
+using FirstApiApp.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -12,7 +14,12 @@ namespace FirstApiApp.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class AccountController(UserManager<AppUser> userManager, RoleManager<IdentityRole> roleManager, IMapper mapper,IConfiguration configuration)
+public class AccountController(
+    UserManager<AppUser> userManager,
+    RoleManager<IdentityRole> roleManager,
+    IMapper mapper,
+    IConfiguration configuration,
+    JwtService jwtService)
     : ControllerBase
 {
     [HttpPost("register")]
@@ -49,25 +56,18 @@ public class AccountController(UserManager<AppUser> userManager, RoleManager<Ide
             return Unauthorized("Invalid username or password.");
 
         var roles = await userManager.GetRolesAsync(user);
-        List<Claim> claims = new()
-        {
-            new Claim(ClaimTypes.NameIdentifier, user.Id),
-            new Claim(ClaimTypes.Name, user.UserName),
-            new Claim("FullName", user.FullName)
-        };
-        
-        claims.AddRange(roles.Select(role => new Claim(ClaimTypes.Role, role)));
-        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration.GetSection("JwtSettings:SecretKey").Value));
-        var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-        var token = new JwtSecurityToken(
-            issuer: configuration.GetSection("JwtSettings:Issuer").Value,
-            audience: configuration.GetSection("JwtSettings:Audience").Value,
-            claims: claims,
-            expires: DateTime.Now.AddMinutes(30),
-            signingCredentials: creds
-        );
-        var tokenString = new JwtSecurityTokenHandler().WriteToken(token);
-        
+        var tokenString = jwtService.GenerateToken(user, roles);
         return Ok(tokenString);
+    }
+
+    [HttpGet("profile")]
+    [Authorize]
+    public async Task<IActionResult> GetProfile()
+    {
+        var user = await userManager.FindByNameAsync(User.Identity.Name);
+        if (user == null)
+            return NotFound();
+
+        return Ok(user);
     }
 }
