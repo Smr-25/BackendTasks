@@ -72,7 +72,7 @@ public class CategoriesController(AppDbContext dbContext) : ControllerBase
         return Ok(category);
     }
     [HttpPut("{id}")]
-    // [Authorize]
+     [Authorize]
     public async Task<IActionResult> UpdateCategory(int id, UpdateCategoryDto categoryDto)
     {
         var category = await dbContext.Categories.FindAsync(id);
@@ -87,7 +87,7 @@ public class CategoriesController(AppDbContext dbContext) : ControllerBase
     }
     
     [HttpDelete("{id}")]
-    //[Authorize]
+    [Authorize]
     public async Task<IActionResult> DeleteCategory(int id)
     {
         var category = await dbContext.Categories.FindAsync(id);

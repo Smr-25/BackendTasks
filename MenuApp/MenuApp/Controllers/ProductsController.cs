@@ -56,7 +56,7 @@ public class ProductsController(AppDbContext dbContext) : ControllerBase
     }
 
     [HttpPost]
-    //[Authorize]
+    [Authorize]
     public async Task<IActionResult> CreateProduct(CreateProductDto productDto)
     {
         var categoryExists = await dbContext.Categories.AnyAsync(c => c.Id == productDto.CategoryId);
@@ -94,7 +94,7 @@ public class ProductsController(AppDbContext dbContext) : ControllerBase
     }
 
     [HttpPut("{id}")]
-    //[Authorize]
+    [Authorize]
     public async Task<IActionResult> UpdateProduct(int id, UpdateProductDto productDto)
     {
         var product = await dbContext.Products.FindAsync(id);
@@ -119,7 +119,7 @@ public class ProductsController(AppDbContext dbContext) : ControllerBase
     }
 
     [HttpDelete("{id}")]
-    //[Authorize]
+    [Authorize]
     public async Task<IActionResult> DeleteProduct(int id)
     {
         var product = await dbContext.Products.FindAsync(id);
