@@ -1,3 +1,4 @@
+using WebApplicationConsume.Filters;
 using WebApplicationConsume.Handlers;
 
 namespace WebApplicationConsume;
