@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\samiraa\\Desktop\\BACKEND\\BackendTasks\\OnionArch\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54199B96-5C91-401D-9FDD-557760CB846A}|src\\Infrastructure\\OnionArch.Persistance\\OnionArch.Persistance.csproj|c:\\users\\samiraa\\desktop\\backend\\backendtasks\\onionarch\\src\\infrastructure\\onionarch.persistance\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54199B96-5C91-401D-9FDD-557760CB846A}|src\\Infrastructure\\OnionArch.Persistance\\OnionArch.Persistance.csproj|solutionrelative:src\\infrastructure\\onionarch.persistance\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86ACDC7C-7877-4306-B0D8-514A36603F97}|src\\Infrastructure\\OnionArch.Infrastructure\\OnionArch.Infrastructure.csproj|c:\\users\\samiraa\\desktop\\backend\\backendtasks\\onionarch\\src\\infrastructure\\onionarch.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86ACDC7C-7877-4306-B0D8-514A36603F97}|src\\Infrastructure\\OnionArch.Infrastructure\\OnionArch.Infrastructure.csproj|solutionrelative:src\\infrastructure\\onionarch.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB4A8CEC-221A-417D-AF3F-4512F5076CF6}|src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj|c:\\users\\samiraa\\desktop\\backend\\backendtasks\\onionarch\\src\\core\\onionarch.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB4A8CEC-221A-417D-AF3F-4512F5076CF6}|src\\Core\\OnionArch.Domain\\OnionArch.Domain.csproj|solutionrelative:src\\core\\onionarch.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1350EC16-0A99-4FCF-B6FB-7085B587D14D}|src\\Core\\OnionArch.Application\\OnionArch.Application.csproj|c:\\users\\samiraa\\desktop\\backend\\backendtasks\\onionarch\\src\\core\\onionarch.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1350EC16-0A99-4FCF-B6FB-7085B587D14D}|src\\Core\\OnionArch.Application\\OnionArch.Application.csproj|solutionrelative:src\\core\\onionarch.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\samiraa\\Desktop\\BACKEND\\BackendTasks\\OnionArch\\src\\Infrastructure\\OnionArch.Persistance\\Class1.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\OnionArch.Persistance\\Class1.cs",
+              "ToolTip": "C:\\Users\\samiraa\\Desktop\\BACKEND\\BackendTasks\\OnionArch\\src\\Infrastructure\\OnionArch.Persistance\\Class1.cs",
+              "RelativeToolTip": "src\\Infrastructure\\OnionArch.Persistance\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:26:55.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\samiraa\\Desktop\\BACKEND\\BackendTasks\\OnionArch\\src\\Infrastructure\\OnionArch.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\OnionArch.Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\samiraa\\Desktop\\BACKEND\\BackendTasks\\OnionArch\\src\\Infrastructure\\OnionArch.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "src\\Infrastructure\\OnionArch.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:26:05.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\samiraa\\Desktop\\BACKEND\\BackendTasks\\OnionArch\\src\\Core\\OnionArch.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "src\\Core\\OnionArch.Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\samiraa\\Desktop\\BACKEND\\BackendTasks\\OnionArch\\src\\Core\\OnionArch.Domain\\Class1.cs",
+              "RelativeToolTip": "src\\Core\\OnionArch.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:25:01.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\samiraa\\Desktop\\BACKEND\\BackendTasks\\OnionArch\\src\\Core\\OnionArch.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "src\\Core\\OnionArch.Application\\Class1.cs",
+              "ToolTip": "C:\\Users\\samiraa\\Desktop\\BACKEND\\BackendTasks\\OnionArch\\src\\Core\\OnionArch.Application\\Class1.cs",
+              "RelativeToolTip": "src\\Core\\OnionArch.Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T13:24:11.315Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
