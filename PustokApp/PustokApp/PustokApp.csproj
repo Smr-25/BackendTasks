@@ -7,6 +7,8 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\css\site.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\favicon.ico" />
       <_ContentIncludedByDefault Remove="wwwroot\js\site.js" />
       <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" />
       <_ContentIncludedByDefault Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
@@ -68,116 +70,6 @@
       <_ContentIncludedByDefault Remove="wwwroot\lib\jquery\dist\jquery.slim.min.js" />
       <_ContentIncludedByDefault Remove="wwwroot\lib\jquery\dist\jquery.slim.min.map" />
       <_ContentIncludedByDefault Remove="wwwroot\lib\jquery\LICENSE.txt" />
-      <_ContentIncludedByDefault Remove="wwwroot\fonts\fa-brands-400.eot" />
-      <_ContentIncludedByDefault Remove="wwwroot\fonts\fa-brands-400.svg" />
-      <_ContentIncludedByDefault Remove="wwwroot\fonts\fa-brands-400.ttf" />
-      <_ContentIncludedByDefault Remove="wwwroot\fonts\fa-brands-400.woff" />
-      <_ContentIncludedByDefault Remove="wwwroot\fonts\fa-brands-400.woff2" />
-      <_ContentIncludedByDefault Remove="wwwroot\fonts\fa-brands-400d41d.eot" />
-      <_ContentIncludedByDefault Remove="wwwroot\fonts\fa-regular-400.eot" />
-      <_ContentIncludedByDefault Remove="wwwroot\fonts\fa-regular-400.svg" />
-      <_ContentIncludedByDefault Remove="wwwroot\fonts\fa-regular-400.ttf" />
-      <_ContentIncludedByDefault Remove="wwwroot\fonts\fa-regular-400.woff" />
-      <_ContentIncludedByDefault Remove="wwwroot\fonts\fa-regular-400.woff2" />
-      <_ContentIncludedByDefault Remove="wwwroot\fonts\fa-regular-400d41d.eot" />
-      <_ContentIncludedByDefault Remove="wwwroot\fonts\fa-solid-900.eot" />
-      <_ContentIncludedByDefault Remove="wwwroot\fonts\fa-solid-900.svg" />
-      <_ContentIncludedByDefault Remove="wwwroot\fonts\fa-solid-900.ttf" />
-      <_ContentIncludedByDefault Remove="wwwroot\fonts\fa-solid-900.woff" />
-      <_ContentIncludedByDefault Remove="wwwroot\fonts\fa-solid-900.woff2" />
-      <_ContentIncludedByDefault Remove="wwwroot\fonts\fa-solid-900d41d.eot" />
-      <_ContentIncludedByDefault Remove="wwwroot\fonts\Ionicons28b5.eot" />
-      <_ContentIncludedByDefault Remove="wwwroot\fonts\Ionicons28b5.svg" />
-      <_ContentIncludedByDefault Remove="wwwroot\fonts\Ionicons28b5.ttf" />
-      <_ContentIncludedByDefault Remove="wwwroot\fonts\Ionicons28b5.woff" />
-      <_ContentIncludedByDefault Remove="wwwroot\fonts\Material-Design-Iconic-Fontd1f1.ttf" />
-      <_ContentIncludedByDefault Remove="wwwroot\fonts\Material-Design-Iconic-Fontd1f1.woff" />
-      <_ContentIncludedByDefault Remove="wwwroot\fonts\Material-Design-Iconic-Fontd1f1.woff2" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\bg-images\best-seller-bg.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\bg-images\home-2-slider-1.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\bg-images\home-2-slider-2.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\bg-images\home-3-slider-1.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\bg-images\home-3-slider-2.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\bg-images\home-4-slider-1.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\bg-images\home-4-slider-2.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\bg-images\home-slider-1-ai.png" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\bg-images\home-slider-2-ai.png" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\bg-images\promo-banner-contained.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\bg-images\promo-banner-full.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\bg-images\promo-banner-mid.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\bg-images\promo-banner-small-with-text.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\bg-images\promo-banner-small.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\bg-images\promo-banner-with-text-2--small.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\bg-images\promo-banner-with-text-2.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\bg-images\promo-banner-with-text-big.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\bg-images\promo-banner-with-text.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\favicon.ico" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\icon\author-logo.png" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\icon\eng-flag.png" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\icon\germany-flag.png" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\icon\payment.png" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\icon\quotation.png" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\logo--footer.png" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\logo.png" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\others\best-seller-author.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\others\blog-grid-1.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\others\blog-grid-2.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\others\blog-grid-3.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\others\blog-grid-4.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\others\blog-img-big-1.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\others\blog-img-big-2.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\others\blog-img-big-3.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\others\brand-1.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\others\brand-2.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\others\brand-3.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\others\brand-4.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\others\brand-5.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\others\brand-6.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\others\cat-gal-large.png" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\others\cat-gal-mid-2.png" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\others\cat-gal-mid.png" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\others\cat-gal-small-2.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\others\cat-gal-small.png" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\others\client-1.png" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\others\client-2.png" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\others\client-3.png" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\others\client-4.png" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\others\client-5.png" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\others\home-blog-1.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\others\home-blog-2.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\others\home-side-promo.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\products\cart-product-1.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\products\product-1.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\products\product-10.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\products\product-11.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\products\product-12.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\products\product-13.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\products\product-2.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\products\product-3.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\products\product-4.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\products\product-5.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\products\product-6.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\products\product-7.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\products\product-8.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\products\product-9.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\products\product-details-1.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\products\product-details-2.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\products\product-details-3.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\products\product-details-4.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\image\products\product-details-5.jpg" />
-      <_ContentIncludedByDefault Remove="wwwroot\js\ajax-mail.js" />
-      <_ContentIncludedByDefault Remove="wwwroot\js\custom.js" />
-      <_ContentIncludedByDefault Remove="wwwroot\js\plugins.js" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="wwwroot\assets\" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.0" />
-      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.0"/>
-      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.0" />
     </ItemGroup>
 
 </Project>

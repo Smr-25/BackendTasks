@@ -14,7 +14,7 @@ public class ProductController(AppDbContext dbContext,IMapper mapper) : Controll
     [HttpGet]
     public IActionResult Get()
     {
-        var products = dbContext.Products.Include(p=>p.Category).ToList();
+        var products = dbContext.Products.Include(p=>p.Category).Include(p=>p.ProductColors).ThenInclude(pc=>pc.Color).ToList();
         var productsReturnDto = mapper.Map<List<ProductReturnDto>>(products);
         return Ok(productsReturnDto);
     }
@@ -22,7 +22,7 @@ public class ProductController(AppDbContext dbContext,IMapper mapper) : Controll
     [HttpGet("{id}")]
     public IActionResult Get(int id)
     {
-        var product = dbContext.Products.Include(p=>p.Category).FirstOrDefault(p => p.Id == id);
+        var product = dbContext.Products.Include(p=>p.Category).Include(p=>p.ProductColors).ThenInclude(pc=>pc.Color).FirstOrDefault(p => p.Id == id);
         if (product == null)
             return NotFound();
         var productReturnDto = mapper.Map<ProductReturnDto>(product);
@@ -34,6 +34,11 @@ public class ProductController(AppDbContext dbContext,IMapper mapper) : Controll
     {
         if (!dbContext.Categories.Any(c => c.Id == productCreateDto.CategoryId))
             return BadRequest();
+        foreach (var colorId in productCreateDto.ColorIds)
+        {
+            if (!dbContext.Categories.Any(c => c.Id == colorId))
+                return BadRequest();
+        }
         var product = mapper.Map<Product>(productCreateDto);
         dbContext.Products.Add(product);
         dbContext.SaveChanges();

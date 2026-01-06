@@ -10,4 +10,6 @@ public class Product
     public Category Category { get; set; }
     public DateTime CreatedDate { get; set; }
     public DateTime? UptadeDate { get; set; }
+    
+    public List<ProductColor> ProductColors { get; set; }
 }

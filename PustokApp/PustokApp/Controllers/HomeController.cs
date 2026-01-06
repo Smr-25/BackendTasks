@@ -1,17 +1,24 @@
+using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using PustokApp.Data;
-using PustokApp.ViewModels;
+using PustokApp.Models;
 
 namespace PustokApp.Controllers;
 
-public class HomeController(AppDbContext dbContext) : Controller
+public class HomeController : Controller
 {
     public IActionResult Index()
     {
-        HomeVm homeVm = new()
-        {
-            Sliders = dbContext.Sliders.OrderBy(s => s.Order).ToList()
-        };
-        return View(homeVm);
+        return View();
+    }
+
+    public IActionResult Privacy()
+    {
+        return View();
+    }
+
+    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+    public IActionResult Error()
+    {
+        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 }
