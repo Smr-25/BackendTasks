@@ -1,0 +1,12 @@
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Infrastructure/bin/Debug/net10.0/OnionArchApp.Infrastructure.deps.json
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Infrastructure/bin/Debug/net10.0/OnionArchApp.Infrastructure.dll
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Infrastructure/bin/Debug/net10.0/OnionArchApp.Infrastructure.pdb
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Infrastructure/obj/Debug/net10.0/OnionArchApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Infrastructure/obj/Debug/net10.0/OnionArchApp.Infrastructure.AssemblyInfoInputs.cache
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Infrastructure/obj/Debug/net10.0/OnionArchApp.Infrastructure.AssemblyInfo.cs
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Infrastructure/obj/Debug/net10.0/OnionArchApp.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Infrastructure/obj/Debug/net10.0/OnionArchApp.Infrastructure.sourcelink.json
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Infrastructure/obj/Debug/net10.0/OnionArchApp.Infrastructure.dll
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Infrastructure/obj/Debug/net10.0/refint/OnionArchApp.Infrastructure.dll
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Infrastructure/obj/Debug/net10.0/OnionArchApp.Infrastructure.pdb
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Infrastructure/obj/Debug/net10.0/ref/OnionArchApp.Infrastructure.dll
