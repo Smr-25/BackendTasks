@@ -1,4 +1,4 @@
-namespace OnionArchApp.Domain.Entity;
+namespace OnionArchApp.Domain.Entities;
 
 public class ProductColor
 {

@@ -1,4 +1,5 @@
 using Microsoft.Extensions.DependencyInjection;
+using OnionArchApp.Application.Profiles;
 using OnionArchApp.Application.Services.Concretes;
 using OnionArchApp.Application.Services.Interfaces;
 
@@ -9,6 +10,7 @@ public static class ServiceRegistration
     extension(IServiceCollection services){
         public void AddApplicationServices()
         {
+            services.AddAutoMapper(opt=> opt.AddProfile<MapProfile>());
             services.AddScoped<ICategoryService, CategoryService>();
         }
     }

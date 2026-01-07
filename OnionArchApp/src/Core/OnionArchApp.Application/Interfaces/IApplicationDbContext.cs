@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using OnionArchApp.Domain.Entity;
+using OnionArchApp.Domain.Entities;
 
 namespace OnionArchApp.Application.Interfaces;
 

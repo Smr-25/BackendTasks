@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using OnionArchApp.Domain.Entity;
+using OnionArchApp.Domain.Entities;
 
 namespace OnionArchApp.Persistance.Configurations;
 

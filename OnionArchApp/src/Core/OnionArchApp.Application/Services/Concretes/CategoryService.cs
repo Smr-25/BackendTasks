@@ -1,38 +1,38 @@
+using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using OnionArchApp.Application.Dtos.Category;
 using OnionArchApp.Application.Interfaces;
 using OnionArchApp.Application.Services.Interfaces;
-using OnionArchApp.Domain.Entity;
+using OnionArchApp.Domain.Entities;
 
 namespace OnionArchApp.Application.Services.Concretes;
 
-public class CategoryService(IApplicationDbContext applicationDbContext) : ICategoryService
+public class CategoryService(IApplicationDbContext applicationDbContext,IMapper mapper) : ICategoryService
 {
-    public Task<List<CategoryReturnDto>> GetAllCategoriesAsync()
+    public async Task<List<CategoryReturnDto>> GetAllCategoriesAsync()
     {
-        var categories = applicationDbContext.Categories
-            .Select(c => new CategoryReturnDto(c.Id, c.Name))
-            .ToList();
-        return Task.FromResult(categories);
+        var categories = await applicationDbContext.Categories.ToListAsync();
+        var categoryDtos = mapper.Map<List<CategoryReturnDto>>(categories);
+        return categoryDtos;
     }
 
-    public Task CreateCategoryAsync(Category categoryDto)
+    public async Task CreateCategoryAsync(CategoryCreateDto categoryDto)
     {
-        var category = new Category
-        {
-            Name = categoryDto.Name
-        };
-        applicationDbContext.Categories.Add(category);
-        applicationDbContext.SaveChangesAsync();
-        return Task.CompletedTask;
+        var category = mapper.Map<Category>(categoryDto);
+        await applicationDbContext.Categories.AddAsync(category);
+        await applicationDbContext.SaveChangesAsync();
     }
 
-    public Task UpdateCategoryAsync(Category category)
+    public Task UpdateCategoryAsync(CategoryUpdateDto categoryDto)
     {
-        throw new NotImplementedException();
+        var category = mapper.Map<Category>(categoryDto);
+        applicationDbContext.Categories.Update(category);
+        return applicationDbContext.SaveChangesAsync();
     }
 
     public Task DeleteCategoryAsync(int categoryId)
     {
         throw new NotImplementedException();
     }
+
 }

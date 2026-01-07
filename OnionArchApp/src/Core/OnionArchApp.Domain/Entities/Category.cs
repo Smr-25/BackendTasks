@@ -1,6 +1,7 @@
-using OnionArchApp.Domain.Entity.Common;
 
-namespace OnionArchApp.Domain.Entity;
+using OnionArchApp.Domain.Entities.Common;
+
+namespace OnionArchApp.Domain.Entities;
 
 public class Category : BaseEntity
 {

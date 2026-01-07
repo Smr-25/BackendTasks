@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using OnionArchApp.Application.Interfaces;
-using OnionArchApp.Domain.Entity;
+using OnionArchApp.Domain.Entities;
 
 namespace OnionArchApp.Persistance.Data;
 

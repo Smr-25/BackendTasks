@@ -1,4 +1,4 @@
-namespace OnionArchApp.Domain.Entity.Common;
+namespace OnionArchApp.Domain.Entities.Common;
 
 public abstract class BaseEntity
 {

@@ -1,6 +1,6 @@
-using OnionArchApp.Domain.Entity.Common;
+using OnionArchApp.Domain.Entities.Common;
 
-namespace OnionArchApp.Domain.Entity;
+namespace OnionArchApp.Domain.Entities;
 
 public class Color : BaseEntity
 {

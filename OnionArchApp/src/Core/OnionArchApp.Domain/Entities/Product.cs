@@ -1,7 +1,8 @@
-using OnionArchApp.Domain.Entity.Common;
+
+using OnionArchApp.Domain.Entities.Common;
 using OnionArchApp.Domain.Enums;
 
-namespace OnionArchApp.Domain.Entity;
+namespace OnionArchApp.Domain.Entities;
 
 public class Product : BaseEntity
 {
