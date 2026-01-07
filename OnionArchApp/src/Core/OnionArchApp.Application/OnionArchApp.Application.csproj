@@ -7,11 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\OnionArchApp.Domain\OnionArchApp.Domain.csproj" />
+        <ProjectReference Include="..\OnionArchApp.Domain\OnionArchApp.Domain.csproj"/>
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.1" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.1"/>
+        <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="10.0.1"/>
     </ItemGroup>
 
 </Project>

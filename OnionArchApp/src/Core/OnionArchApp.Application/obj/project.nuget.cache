@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kbKRMChrGug=",
+  "dgSpecHash": "qTks0EAUzb0=",
   "success": true,
   "projectFilePath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Application/OnionArchApp.Application.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "/Users/asmrofficialfinder/.nuget/packages/microsoft.entityframeworkcore.analyzers/10.0.1/microsoft.entityframeworkcore.analyzers.10.0.1.nupkg.sha512",
     "/Users/asmrofficialfinder/.nuget/packages/microsoft.extensions.caching.abstractions/10.0.1/microsoft.extensions.caching.abstractions.10.0.1.nupkg.sha512",
     "/Users/asmrofficialfinder/.nuget/packages/microsoft.extensions.caching.memory/10.0.1/microsoft.extensions.caching.memory.10.0.1.nupkg.sha512",
+    "/Users/asmrofficialfinder/.nuget/packages/microsoft.extensions.configuration.abstractions/10.0.1/microsoft.extensions.configuration.abstractions.10.0.1.nupkg.sha512",
     "/Users/asmrofficialfinder/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.1/microsoft.extensions.dependencyinjection.10.0.1.nupkg.sha512",
     "/Users/asmrofficialfinder/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.1/microsoft.extensions.dependencyinjection.abstractions.10.0.1.nupkg.sha512",
     "/Users/asmrofficialfinder/.nuget/packages/microsoft.extensions.logging/10.0.1/microsoft.extensions.logging.10.0.1.nupkg.sha512",

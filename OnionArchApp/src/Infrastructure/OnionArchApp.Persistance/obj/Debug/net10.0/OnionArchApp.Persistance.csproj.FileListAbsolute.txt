@@ -10,3 +10,9 @@
 /Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Persistance/obj/Debug/net10.0/refint/OnionArchApp.Persistance.dll
 /Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Persistance/obj/Debug/net10.0/OnionArchApp.Persistance.pdb
 /Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Persistance/obj/Debug/net10.0/ref/OnionArchApp.Persistance.dll
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Persistance/bin/Debug/net10.0/OnionArchApp.Application.dll
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Persistance/bin/Debug/net10.0/OnionArchApp.Domain.dll
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Persistance/bin/Debug/net10.0/OnionArchApp.Application.pdb
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Persistance/bin/Debug/net10.0/OnionArchApp.Domain.pdb
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Persistance/obj/Debug/net10.0/OnionArchApp.Persistance.csproj.AssemblyReference.cache
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Persistance/obj/Debug/net10.0/OnionArc.6C079617.Up2Date

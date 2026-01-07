@@ -10,3 +10,7 @@
 /Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Application/obj/Debug/net10.0/refint/OnionArchApp.Application.dll
 /Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Application/obj/Debug/net10.0/OnionArchApp.Application.pdb
 /Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Application/obj/Debug/net10.0/ref/OnionArchApp.Application.dll
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Application/bin/Debug/net10.0/OnionArchApp.Domain.dll
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Application/bin/Debug/net10.0/OnionArchApp.Domain.pdb
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Application/obj/Debug/net10.0/OnionArchApp.Application.csproj.AssemblyReference.cache
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Application/obj/Debug/net10.0/OnionArc.7DA6D833.Up2Date

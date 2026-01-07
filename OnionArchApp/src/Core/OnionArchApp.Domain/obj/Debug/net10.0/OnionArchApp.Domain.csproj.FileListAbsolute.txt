@@ -3,3 +3,10 @@
 /Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Domain/obj/Debug/net10.0/OnionArchApp.Domain.AssemblyInfo.cs
 /Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Domain/obj/Debug/net10.0/OnionArchApp.Domain.csproj.CoreCompileInputs.cache
 /Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Domain/obj/Debug/net10.0/OnionArchApp.Domain.sourcelink.json
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Domain/bin/Debug/net10.0/OnionArchApp.Domain.deps.json
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Domain/bin/Debug/net10.0/OnionArchApp.Domain.dll
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Domain/bin/Debug/net10.0/OnionArchApp.Domain.pdb
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Domain/obj/Debug/net10.0/OnionArchApp.Domain.dll
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Domain/obj/Debug/net10.0/refint/OnionArchApp.Domain.dll
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Domain/obj/Debug/net10.0/OnionArchApp.Domain.pdb
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Domain/obj/Debug/net10.0/ref/OnionArchApp.Domain.dll

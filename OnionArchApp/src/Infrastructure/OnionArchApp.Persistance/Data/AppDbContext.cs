@@ -4,12 +4,18 @@ using OnionArchApp.Domain.Entity;
 
 namespace OnionArchApp.Persistance.Data;
 
-public class AppDbContext : DbContext, IApplicationDbContext
+public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options), IApplicationDbContext
 {
     public DbSet<Category> Categories { get; set; }
     public DbSet<Product> Products { get; set; }
     public Task<int> SaveChangesAsync()
     {
         return base.SaveChangesAsync();
+    }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly);
     }
 }
