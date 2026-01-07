@@ -16,7 +16,7 @@ public class CategoriesController(ICategoryService categoryService) : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> Crete(CategoryCreateDto createDto)
+    public async Task<IActionResult> Create(CategoryCreateDto createDto)
     {
         var response = await categoryService.CreateCategoryAsync(createDto);
         return Ok(response);
