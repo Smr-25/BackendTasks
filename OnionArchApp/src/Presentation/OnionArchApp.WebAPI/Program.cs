@@ -1,8 +1,5 @@
 using System.Text.Json.Serialization;
 using AppSettingsMultiPlatformPackage;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using OnionArchApp.Application;
 using OnionArchApp.Persistance;
 using OnionArchApp.WebAPI.Middlewares;

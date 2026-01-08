@@ -1,6 +1,7 @@
 using AutoMapper;
 using AutoMapper.Internal;
 using OnionArchApp.Application.Dtos.Category;
+using OnionArchApp.Application.Dtos.Color;
 using OnionArchApp.Application.Dtos.Product;
 using OnionArchApp.Domain.Entities;
 
@@ -21,5 +22,9 @@ public class MapProfile : Profile
             .ForAllMembers(opt =>
                 opt.Condition((src, dest, srcMember, destMember) =>
                     srcMember != null));
+        CreateMap<Color, ColorReturnDto>();
+        CreateMap<ColorCreateDto, Color>();
+        CreateMap<ColorUpdateDto, Color>()
+            .ForAllMembers(opt =>opt.Condition((src, dest, srcMember, destMember) => srcMember != null));
     }
 }

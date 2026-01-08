@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OnionArchApp.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7820a46cf57ac3d947627b035accdb6153f44bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e028962ddc112411989cf4bc2e6fbd32a04a078a")]
 [assembly: System.Reflection.AssemblyProductAttribute("OnionArchApp.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OnionArchApp.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

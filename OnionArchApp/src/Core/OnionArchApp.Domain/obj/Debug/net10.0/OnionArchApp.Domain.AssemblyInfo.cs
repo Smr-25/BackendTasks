@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OnionArchApp.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb1708374ba5b26c280b017026697f06137745b2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e028962ddc112411989cf4bc2e6fbd32a04a078a")]
 [assembly: System.Reflection.AssemblyProductAttribute("OnionArchApp.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OnionArchApp.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
