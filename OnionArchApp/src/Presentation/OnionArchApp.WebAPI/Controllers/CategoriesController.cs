@@ -21,4 +21,18 @@ public class CategoriesController(ICategoryService categoryService) : Controller
         var response = await categoryService.CreateCategoryAsync(categoryCreateDto);
         return Ok(response);
     }
+
+    [HttpPut("{categoryId}")]
+    public async Task<IActionResult> UpdateCategory(int categoryId, CategoryUpdateDto categoryUpdateDto)
+    {
+        await categoryService.UpdateCategoryAsync(categoryId, categoryUpdateDto);
+        return NoContent();
+    }
+
+    [HttpDelete("{categoryId}")]
+    public async Task<IActionResult> DeleteCategory(int categoryId)
+    {
+        await categoryService.DeleteCategoryAsync(categoryId);
+        return NoContent();
+    }
 }

@@ -13,7 +13,7 @@ public class CategoryService(IApplicationDbContext applicationDbContext, IMapper
 {
     public async Task<ResponseModel<List<CategoryReturnDto>>> GetAllCategoriesAsync()
     {
-        var categories = await applicationDbContext.Categories.ToListAsync();
+        var categories = await applicationDbContext.Categories.Include(c=>c.Products).ToListAsync();
         var categoryReturnDtos = mapper.Map<List<CategoryReturnDto>>(categories);
         return ResponseModel<List<CategoryReturnDto>>.Success(categoryReturnDtos);
     }
@@ -35,11 +35,20 @@ public class CategoryService(IApplicationDbContext applicationDbContext, IMapper
 
     public async Task UpdateCategoryAsync(int categoryId, CategoryUpdateDto categoryDto)
     {
-            throw new NotImplementedException();
+        var category =  await applicationDbContext.Categories.FindAsync(categoryId);
+        if(category == null)
+            throw new KeyNotFoundException("Category not found.");
+        mapper.Map(categoryDto, category);
+        applicationDbContext.Categories.Update(category);
+        await applicationDbContext.SaveChangesAsync();
     }
 
     public async Task DeleteCategoryAsync(int categoryId)
     {
-        throw new NotImplementedException();
+        var category = await applicationDbContext.Categories.FindAsync(categoryId);
+        if(category == null)
+            throw new KeyNotFoundException("Category not found.");
+        applicationDbContext.Categories.Remove(category);
+        await applicationDbContext.SaveChangesAsync();
     }
 }
