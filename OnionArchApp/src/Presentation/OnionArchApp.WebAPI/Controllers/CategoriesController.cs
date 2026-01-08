@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using OnionArchApp.Application.Dtos.Category;
 using OnionArchApp.Application.Services.Interfaces;
 
 namespace OnionArchApp.WebAPI.Controllers;
@@ -8,9 +9,16 @@ namespace OnionArchApp.WebAPI.Controllers;
 public class CategoriesController(ICategoryService categoryService) : ControllerBase
 {
     [HttpGet]
-    public IActionResult GetCategories()
+    public async Task<IActionResult> GetCategories()
     {
-        var categories = categoryService.GetAllCategoriesAsync();
+        var categories = await categoryService.GetAllCategoriesAsync();
         return Ok(categories);
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> CreateCategory(CategoryCreateDto categoryCreateDto)
+    {
+        var response = await categoryService.CreateCategoryAsync(categoryCreateDto);
+        return Ok(response);
     }
 }

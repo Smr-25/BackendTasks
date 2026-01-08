@@ -1,3 +1,4 @@
+using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 using OnionArchApp.Application.Profiles;
 using OnionArchApp.Application.Services.Concretes;
@@ -11,6 +12,7 @@ public static class ServiceRegistration
         public void AddApplicationServices()
         {
             services.AddAutoMapper(opt=> opt.AddProfile<MapProfile>());
+            services.AddValidatorsFromAssembly(typeof(ServiceRegistration).Assembly);
             services.AddScoped<ICategoryService, CategoryService>();
         }
     }
