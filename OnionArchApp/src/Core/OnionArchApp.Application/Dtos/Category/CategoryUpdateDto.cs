@@ -1,3 +1,3 @@
 namespace OnionArchApp.Application.Dtos.Category;
 
-public record CategoryUpdateDto(string Name);
+public record CategoryUpdateDto(string? Name);
