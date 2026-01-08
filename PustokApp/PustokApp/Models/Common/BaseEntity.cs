@@ -1,4 +1,4 @@
-﻿namespace Pustok.Mvc.Models.Common;
+﻿namespace PustokApp.Models.Common;
 
 public abstract class BaseEntity
 {

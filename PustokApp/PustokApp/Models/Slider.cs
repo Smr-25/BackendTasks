@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Pustok.Mvc.Models.Common;
+using PustokApp.Models.Common;
 using PustokApp.Attributes;
 
 namespace PustokApp.Models;
