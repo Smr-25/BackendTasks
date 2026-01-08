@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Jt5VoW7x3DE=",
+  "success": true,
+  "projectFilePath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/MessageBrokersMQ/WithMessageBroker/WithMessageBroker.Producer/WithMessageBroker.Producer.csproj",
+  "expectedPackageFiles": [
+    "/Users/asmrofficialfinder/.nuget/packages/rabbitmq.client/7.2.0/rabbitmq.client.7.2.0.nupkg.sha512",
+    "/Users/asmrofficialfinder/.nuget/packages/system.threading.ratelimiting/8.0.0/system.threading.ratelimiting.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
