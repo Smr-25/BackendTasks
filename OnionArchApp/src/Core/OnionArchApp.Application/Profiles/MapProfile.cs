@@ -17,7 +17,10 @@ public class MapProfile : Profile
             .ForAllMembers(opts =>
                 opts.Condition((src, dest, srcMember) => srcMember != null));
         CreateMap<Product, ProductReturnDto>();
-        CreateMap<ProductCreateDto, Product>();
+        CreateMap<ProductColor,ColorsInProductDto>();
+        CreateMap<ProductCreateDto, Product>()
+            .ForMember(dest => dest.ProductColors, opt => opt.MapFrom(src =>
+                src.ColorIds.Select(colorId => new ProductColor { ColorId = colorId }).ToList()));
         CreateMap<ProductUpdateDto, Product>()
             .ForAllMembers(opt =>
                 opt.Condition((src, dest, srcMember, destMember) =>

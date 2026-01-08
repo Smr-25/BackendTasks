@@ -2,7 +2,7 @@ using FluentValidation;
 
 namespace OnionArchApp.Application.Dtos.Color;
 
-public record ColorCreateDto(string Name, string HexCode,int ProductId);
+public record ColorCreateDto(string Name, string HexCode);
 
 public class ColorCreateDtoValidator : AbstractValidator<ColorCreateDto>
 {
@@ -14,9 +14,7 @@ public class ColorCreateDtoValidator : AbstractValidator<ColorCreateDto>
 
         RuleFor(c => c.HexCode)
             .NotEmpty().WithMessage("Hex code is required.")
-            .Matches("^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$").WithMessage("Hex code must be a valid format (e.g., #FFFFFF).");
-        
-        RuleFor(c => c.ProductId)
-            .GreaterThan(0).WithMessage("ProductId must be a positive integer.");
+            .Matches("^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$")
+            .WithMessage("Hex code must be a valid format (e.g., #FFFFFF).");
     }
 }

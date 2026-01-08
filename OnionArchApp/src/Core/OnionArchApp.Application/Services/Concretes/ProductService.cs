@@ -16,7 +16,7 @@ public class ProductService(
 {
     public async Task<ResponseModel<List<ProductReturnDto>>> GetAllProductsAsync()
     {
-        var products = await applicationDbContext.Products.Include(p=>p.Category).ToListAsync();
+        var products = await applicationDbContext.Products.Include(p=>p.Category).Include(p=>p.ProductColors).ThenInclude(pc=>pc.Color).ToListAsync();
         var productReturnDtos = mapper.Map<List<ProductReturnDto>>(products);
         return ResponseModel<List<ProductReturnDto>>.Success(productReturnDtos);
     }

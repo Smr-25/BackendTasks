@@ -3,7 +3,7 @@ using OnionArchApp.Domain.Enums;
 
 namespace OnionArchApp.Application.Dtos.Product;
 
-public record ProductCreateDto(string Name, decimal Price, ProductStatus Status, int CategoryId);
+public record ProductCreateDto(string Name, decimal Price, ProductStatus Status, int CategoryId, List<int> ColorIds);
 
 public class ProductCreateDtoValidator : AbstractValidator<ProductCreateDto>
 {
@@ -18,5 +18,8 @@ public class ProductCreateDtoValidator : AbstractValidator<ProductCreateDto>
 
         RuleFor(p => p.CategoryId)
             .GreaterThan(0).WithMessage("CategoryId must be a positive integer.");
+        RuleFor(p => p.ColorIds)
+            .NotNull().WithMessage("ColorIds cannot be null.")
+            .Must(colorIds => colorIds.All(id => id > 0)).WithMessage("All ColorIds must be positive integers.");
     }
 }
