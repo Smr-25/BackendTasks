@@ -35,4 +35,6 @@ public class Book : BaseEntity
 
     public int AuthorId { get; set; }
     public Author? Author { get; set; }
+    public List<BookTag> BookTags { get; set; }
+    public List<BookImage> BookImages { get; set; }
 }
