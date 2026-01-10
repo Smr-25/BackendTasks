@@ -174,3 +174,5 @@
 /Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/MenuApp/MenuApp/bin/Debug/net10.0/Pipelines.Sockets.Unofficial.dll
 /Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/MenuApp/MenuApp/bin/Debug/net10.0/StackExchange.Redis.dll
 /Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/MenuApp/MenuApp/bin/Debug/net10.0/System.IO.Hashing.dll
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/MenuApp/MenuApp/bin/Debug/net10.0/Npgsql.dll
+/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/MenuApp/MenuApp/bin/Debug/net10.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
