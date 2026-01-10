@@ -4,16 +4,23 @@ using Microsoft.EntityFrameworkCore;
 using MenuApp.Dtos.Categories;
 using MenuApp.Dtos.Products;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.Extensions.Caching.Memory;
 
 namespace MenuApp.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class CategoriesController(AppDbContext dbContext) : ControllerBase
+public class CategoriesController(AppDbContext dbContext,ILogger<CategoriesController> logger, IMemoryCache cache) : ControllerBase
 {
     [HttpGet]
     public async Task<IActionResult> GetCategories()
     {
+        var categoriesCache = (List<CategoryReturnDto>)cache.Get("categories");
+        if (categoriesCache != null)
+        {
+            logger.LogInformation("Categories retrieved from cache.");
+            return Ok(categoriesCache);
+        }
         var categories = await dbContext.Categories
             .Include(c => c.Products)
             .Select(c => new CategoryReturnDto()
@@ -29,7 +36,7 @@ public class CategoriesController(AppDbContext dbContext) : ControllerBase
                 }).ToList()
             })
             .ToListAsync();
-
+        cache.Set("categories", categories, TimeSpan.FromDays(1));
         return Ok(categories);
     }
 
