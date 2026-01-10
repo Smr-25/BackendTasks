@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oZRIp3IwWMY=",
+  "dgSpecHash": "5Kdw/kTk8lM=",
   "success": true,
   "projectFilePath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/MenuApp/MenuApp/MenuApp.csproj",
   "expectedPackageFiles": [
@@ -46,6 +46,8 @@
     "/Users/asmrofficialfinder/.nuget/packages/microsoft.sqlserver.server/1.0.0/microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "/Users/asmrofficialfinder/.nuget/packages/mono.texttemplating/3.0.0/mono.texttemplating.3.0.0.nupkg.sha512",
     "/Users/asmrofficialfinder/.nuget/packages/newtonsoft.json/13.0.4/newtonsoft.json.13.0.4.nupkg.sha512",
+    "/Users/asmrofficialfinder/.nuget/packages/npgsql/10.0.0/npgsql.10.0.0.nupkg.sha512",
+    "/Users/asmrofficialfinder/.nuget/packages/npgsql.entityframeworkcore.postgresql/10.0.0/npgsql.entityframeworkcore.postgresql.10.0.0.nupkg.sha512",
     "/Users/asmrofficialfinder/.nuget/packages/pipelines.sockets.unofficial/2.2.8/pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "/Users/asmrofficialfinder/.nuget/packages/scalar.aspnetcore/2.11.10/scalar.aspnetcore.2.11.10.nupkg.sha512",
     "/Users/asmrofficialfinder/.nuget/packages/stackexchange.redis/2.10.1/stackexchange.redis.2.10.1.nupkg.sha512",

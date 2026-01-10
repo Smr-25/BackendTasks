@@ -16,9 +16,10 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddControllers();
 
+// builder.Services.AddDbContext<AppDbContext>
+//     (options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddDbContext<AppDbContext>
-    (options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
+    (options => options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreConnection")));
 builder.Services.AddScoped<JwtService>();
 
 var jwtSettings = builder.Configuration.GetSection("JwtSettings");
@@ -56,9 +57,8 @@ builder.Services.AddCors(options =>
 });
 builder.Services.AddMemoryCache();
 
-//Redis
 builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
-    ConnectionMultiplexer.Connect(builder.Configuration.GetSection("Redis:Configuration").Value));
+    ConnectionMultiplexer.Connect(builder.Configuration.GetConnectionString("RedisConnection")));
 builder.Services.AddScoped<IRedisService, RedisService>();
 var app = builder.Build();
 
