@@ -3,7 +3,7 @@ namespace MenuApp.Dtos.Categories;
 public class CategoryReturnDto
 {
     public int Id { get; set; }
-    public string Name { get; set; }
+    public string Name { get; set; } 
     public List<CategoryProductDto> Products { get; set; } = new();
 }
 

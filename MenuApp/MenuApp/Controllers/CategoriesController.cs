@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MenuApp.Dtos.Categories;
 using MenuApp.Dtos.Products;
+using MenuApp.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Caching.Memory;
 
@@ -10,33 +11,37 @@ namespace MenuApp.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class CategoriesController(AppDbContext dbContext,ILogger<CategoriesController> logger, IMemoryCache cache) : ControllerBase
+public class CategoriesController(AppDbContext dbContext,ILogger<CategoriesController> logger, IMemoryCache cache,IRedisService redisService) : ControllerBase
 {
     [HttpGet]
     public async Task<IActionResult> GetCategories()
     {
-        var categoriesCache = (List<CategoryReturnDto>)cache.Get("categories");
+        // var categoriesCache = (List<CategoryReturnDto>)cache.Get("categories");
+        var categoriesCache = await redisService.GetValueAsync<List<CategoryReturnDto>>("categories");
         if (categoriesCache != null)
         {
             logger.LogInformation("Categories retrieved from cache.");
             return Ok(categoriesCache);
         }
         var categories = await dbContext.Categories
-            .Include(c => c.Products)
-            .Select(c => new CategoryReturnDto()
+            .Select(c => new CategoryReturnDto
             {
                 Id = c.Id,
                 Name = c.Name,
-                Products = c.Products.Select(p => new CategoryProductDto
-                {
-                    Id = p.Id,
-                    Name = p.Name,
-                    Price = p.Price,
-                    Stock = p.Stock
-                }).ToList()
+                Products = dbContext.Products
+                    .Where(p => p.CategoryId == c.Id)
+                    .Select(p => new CategoryProductDto
+                    {
+                        Id = p.Id,
+                        Name = p.Name,
+                        Price = p.Price,
+                        Stock = p.Stock
+                    })
+                    .ToList()
             })
             .ToListAsync();
-        cache.Set("categories", categories, TimeSpan.FromDays(1));
+        // cache.Set("categories", categories, TimeSpan.FromDays(1));
+        await redisService.SetValueAsync("categories", categories, TimeSpan.FromDays(1));
         return Ok(categories);
     }
 

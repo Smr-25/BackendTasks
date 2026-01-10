@@ -6,6 +6,7 @@ using System.Text;
 using AppSettingsMultiPlatformPackage;
 using MenuApp.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using StackExchange.Redis;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -54,6 +55,11 @@ builder.Services.AddCors(options =>
     });
 });
 builder.Services.AddMemoryCache();
+
+//Redis
+builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
+    ConnectionMultiplexer.Connect(builder.Configuration.GetSection("Redis:Configuration").Value));
+builder.Services.AddScoped<IRedisService, RedisService>();
 var app = builder.Build();
 
 
