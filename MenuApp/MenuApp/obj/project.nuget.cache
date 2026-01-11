@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5Kdw/kTk8lM=",
+  "dgSpecHash": "bayKLmfZAIE=",
   "success": true,
   "projectFilePath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/MenuApp/MenuApp/MenuApp.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,11 @@
     "/Users/asmrofficialfinder/.nuget/packages/azure.core/1.47.1/azure.core.1.47.1.nupkg.sha512",
     "/Users/asmrofficialfinder/.nuget/packages/azure.identity/1.14.2/azure.identity.1.14.2.nupkg.sha512",
     "/Users/asmrofficialfinder/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
+    "/Users/asmrofficialfinder/.nuget/packages/hangfire/1.8.22/hangfire.1.8.22.nupkg.sha512",
+    "/Users/asmrofficialfinder/.nuget/packages/hangfire.aspnetcore/1.8.22/hangfire.aspnetcore.1.8.22.nupkg.sha512",
+    "/Users/asmrofficialfinder/.nuget/packages/hangfire.core/1.8.22/hangfire.core.1.8.22.nupkg.sha512",
+    "/Users/asmrofficialfinder/.nuget/packages/hangfire.netcore/1.8.22/hangfire.netcore.1.8.22.nupkg.sha512",
+    "/Users/asmrofficialfinder/.nuget/packages/hangfire.sqlserver/1.8.22/hangfire.sqlserver.1.8.22.nupkg.sha512",
     "/Users/asmrofficialfinder/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/asmrofficialfinder/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/10.0.0/microsoft.aspnetcore.authentication.jwtbearer.10.0.0.nupkg.sha512",
     "/Users/asmrofficialfinder/.nuget/packages/microsoft.aspnetcore.openapi/10.0.0/microsoft.aspnetcore.openapi.10.0.0.nupkg.sha512",

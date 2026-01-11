@@ -4,6 +4,7 @@ using MenuApp.Data;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using AppSettingsMultiPlatformPackage;
+using Hangfire;
 using MenuApp.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using StackExchange.Redis;
@@ -16,10 +17,10 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddControllers();
 
-// builder.Services.AddDbContext<AppDbContext>
-//     (options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddDbContext<AppDbContext>
-    (options => options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreConnection")));
+    (options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+// builder.Services.AddDbContext<AppDbContext>
+//     (options => options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreConnection")));
 builder.Services.AddScoped<JwtService>();
 
 var jwtSettings = builder.Configuration.GetSection("JwtSettings");
@@ -60,6 +61,12 @@ builder.Services.AddMemoryCache();
 builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
     ConnectionMultiplexer.Connect(builder.Configuration.GetConnectionString("RedisConnection")));
 builder.Services.AddScoped<IRedisService, RedisService>();
+
+builder.Services.AddHangfire(config =>
+    config.UseSqlServerStorage(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddHangfireServer();
+
+
 var app = builder.Build();
 
 
@@ -70,7 +77,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseCors();
-
+app.UseHangfireDashboard();
 app.UseAuthentication();
 app.UseAuthorization();
 
