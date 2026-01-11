@@ -5,6 +5,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using AppSettingsMultiPlatformPackage;
 using Hangfire;
+using MenuApp.Jobs;
 using MenuApp.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using StackExchange.Redis;
@@ -82,5 +83,9 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
-
+RecurringJob.AddOrUpdate<ProductStatusJob>(
+    "ProductStatusJob",
+    job => job.ExecuteAsync(),
+    "*/1 * * * *"
+);
 app.Run();

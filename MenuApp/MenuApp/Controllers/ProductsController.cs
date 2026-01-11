@@ -41,6 +41,8 @@ public class ProductsController(AppDbContext dbContext) : ControllerBase
                 Id = p.Id,
                 Name = p.Name,
                 Price = p.Price,
+                IsNew =  p.IsNew,
+                CreatedAt = p.CreatedAt,
                 Stock = p.Stock,
                 CategoryId = p.CategoryId,
                 CategoryName = p.Category.Name
