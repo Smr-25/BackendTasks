@@ -7,9 +7,16 @@ public class RedisService(IConnectionMultiplexer connectionMultiplexer) : IRedis
 {
     private readonly IDatabase _database = connectionMultiplexer.GetDatabase();
 
+    private readonly JsonSerializerOptions _jsonOptions = new()
+    {
+        PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+        PropertyNameCaseInsensitive = true
+    };
+    
+
     public async Task SetValueAsync<T>(string key, T data, TimeSpan? expiry = null)
     {
-        var jsonData = JsonSerializer.Serialize(data);
+        var jsonData = JsonSerializer.Serialize(data, _jsonOptions);
         if (expiry.HasValue)
             await _database.StringSetAsync(key, jsonData, expiry.Value);
         else
@@ -23,7 +30,7 @@ public class RedisService(IConnectionMultiplexer connectionMultiplexer) : IRedis
         {
             return default;
         }
-        return JsonSerializer.Deserialize<T>(jsonData.ToString());
+        return JsonSerializer.Deserialize<T>(jsonData.ToString(), _jsonOptions);
     }
     
     public  async Task DeleteValueAsync(string key)
