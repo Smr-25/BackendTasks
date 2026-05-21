@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../build/SendToDataView.props" />
-</Project>
