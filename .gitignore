@@ -1,38 +1,30 @@
 appsettings.Mac.json
-# Build folders
+
+# Build output
 bin/
 obj/
+[Dd]ebug/
+[Rr]elease/
+publish/
 
-# User-specific files
+# IDE / editor files
+.vs/
+.vscode/
+.idea/
+*.suo
 *.user
 *.userosscache
-*.suo
 *.rsuser
+*.sln.docstates
+*.DotSettings.user
 
-# Visual Studio
-.vs/
-
-# Rider / JetBrains
-.idea/
-
-# VS Code
-.vscode/
+# Package artifacts
+*.nupkg
+*.snupkg
 
 # Logs
 *.log
 
-# NuGet packages
-*.nupkg
-*.snupkg
-
-# Build results
-*.dll
-*.exe
-*.pdb
-
 # OS files
 .DS_Store
 Thumbs.db
-
-# Publish folder
-publish/
