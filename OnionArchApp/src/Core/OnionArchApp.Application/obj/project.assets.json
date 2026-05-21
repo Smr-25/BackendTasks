@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net10.0": {
       "AutoMapper/16.0.0": {
@@ -874,19 +874,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/asmrofficialfinder/.nuget/packages/": {}
+    "/home/runner/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Application/OnionArchApp.Application.csproj",
+      "projectUniqueName": "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Core/OnionArchApp.Application/OnionArchApp.Application.csproj",
       "projectName": "OnionArchApp.Application",
-      "projectPath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Application/OnionArchApp.Application.csproj",
-      "packagesPath": "/Users/asmrofficialfinder/.nuget/packages/",
-      "outputPath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Application/obj/",
+      "projectPath": "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Core/OnionArchApp.Application/OnionArchApp.Application.csproj",
+      "packagesPath": "/home/runner/.nuget/packages/",
+      "outputPath": "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Core/OnionArchApp.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/asmrofficialfinder/.nuget/NuGet/NuGet.Config"
+        "/home/runner/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -896,10 +896,11 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Domain/OnionArchApp.Domain.csproj": {
-              "projectPath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Domain/OnionArchApp.Domain.csproj"
+            "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Core/OnionArchApp.Domain/OnionArchApp.Domain.csproj": {
+              "projectPath": "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Core/OnionArchApp.Domain/OnionArchApp.Domain.csproj"
             }
           }
         }
@@ -914,10 +915,11 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net10.0": {
+        "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
           "AutoMapper": {
@@ -957,7 +959,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.300/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1234,5 +1236,17 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AutoMapper' 16.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }

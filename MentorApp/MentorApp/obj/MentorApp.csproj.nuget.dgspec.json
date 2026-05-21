@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/MentorApp/MentorApp/MentorApp.csproj": {}
+    "/home/runner/work/BackendTasks/BackendTasks/MentorApp/MentorApp/MentorApp.csproj": {}
   },
   "projects": {
-    "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/MentorApp/MentorApp/MentorApp.csproj": {
+    "/home/runner/work/BackendTasks/BackendTasks/MentorApp/MentorApp/MentorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/MentorApp/MentorApp/MentorApp.csproj",
+        "projectUniqueName": "/home/runner/work/BackendTasks/BackendTasks/MentorApp/MentorApp/MentorApp.csproj",
         "projectName": "MentorApp",
-        "projectPath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/MentorApp/MentorApp/MentorApp.csproj",
-        "packagesPath": "/Users/asmrofficialfinder/.nuget/packages/",
-        "outputPath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/MentorApp/MentorApp/obj/",
+        "projectPath": "/home/runner/work/BackendTasks/BackendTasks/MentorApp/MentorApp/MentorApp.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/BackendTasks/BackendTasks/MentorApp/MentorApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/asmrofficialfinder/.nuget/NuGet/NuGet.Config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -24,6 +24,7 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -38,10 +39,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
@@ -66,20 +68,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
-              "version": "[8.0.22, 8.0.22]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.22, 8.0.22]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -88,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

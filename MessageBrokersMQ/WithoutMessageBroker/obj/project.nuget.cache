@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M/42O6LN99g=",
+  "dgSpecHash": "uIok2XGv6sA=",
   "success": true,
-  "projectFilePath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/MessageBrokersMQ/WithoutMessageBroker/WithoutMessageBroker.csproj",
+  "projectFilePath": "/home/runner/work/BackendTasks/BackendTasks/MessageBrokersMQ/WithoutMessageBroker/WithoutMessageBroker.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -7,3 +7,13 @@
 /Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/EternaApp/EternaApp/obj/Debug/net8.0/EternaApp.RazorAssemblyInfo.cache
 /Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/EternaApp/EternaApp/obj/Debug/net8.0/EternaApp.RazorAssemblyInfo.cs
 /Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/EternaApp/EternaApp/obj/Debug/net8.0/EternaApp.sourcelink.json
+/home/runner/work/BackendTasks/BackendTasks/EternaApp/EternaApp/obj/Debug/net8.0/EternaApp.csproj.AssemblyReference.cache
+/home/runner/work/BackendTasks/BackendTasks/EternaApp/EternaApp/obj/Debug/net8.0/rpswa.dswa.cache.json
+/home/runner/work/BackendTasks/BackendTasks/EternaApp/EternaApp/obj/Debug/net8.0/EternaApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/BackendTasks/BackendTasks/EternaApp/EternaApp/obj/Debug/net8.0/EternaApp.AssemblyInfoInputs.cache
+/home/runner/work/BackendTasks/BackendTasks/EternaApp/EternaApp/obj/Debug/net8.0/EternaApp.AssemblyInfo.cs
+/home/runner/work/BackendTasks/BackendTasks/EternaApp/EternaApp/obj/Debug/net8.0/EternaApp.csproj.CoreCompileInputs.cache
+/home/runner/work/BackendTasks/BackendTasks/EternaApp/EternaApp/obj/Debug/net8.0/EternaApp.MvcApplicationPartsAssemblyInfo.cache
+/home/runner/work/BackendTasks/BackendTasks/EternaApp/EternaApp/obj/Debug/net8.0/EternaApp.RazorAssemblyInfo.cache
+/home/runner/work/BackendTasks/BackendTasks/EternaApp/EternaApp/obj/Debug/net8.0/EternaApp.RazorAssemblyInfo.cs
+/home/runner/work/BackendTasks/BackendTasks/EternaApp/EternaApp/obj/Debug/net8.0/EternaApp.sourcelink.json

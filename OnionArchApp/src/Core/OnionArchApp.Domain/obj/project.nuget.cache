@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lciP2xZySqc=",
+  "dgSpecHash": "AtVgKPOXRAA=",
   "success": true,
-  "projectFilePath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Domain/OnionArchApp.Domain.csproj",
+  "projectFilePath": "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Core/OnionArchApp.Domain/OnionArchApp.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

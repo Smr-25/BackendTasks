@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net10.0": {
       "AppSettingsMultiPlatformPackage/1.2.1": {
@@ -3499,19 +3499,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/asmrofficialfinder/.nuget/packages/": {}
+    "/home/runner/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/RazorPagesApp/RazorPagesApp/RazorPagesApp.csproj",
+      "projectUniqueName": "/home/runner/work/BackendTasks/BackendTasks/RazorPagesApp/RazorPagesApp/RazorPagesApp.csproj",
       "projectName": "RazorPagesApp",
-      "projectPath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/RazorPagesApp/RazorPagesApp/RazorPagesApp.csproj",
-      "packagesPath": "/Users/asmrofficialfinder/.nuget/packages/",
-      "outputPath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/RazorPagesApp/RazorPagesApp/obj/",
+      "projectPath": "/home/runner/work/BackendTasks/BackendTasks/RazorPagesApp/RazorPagesApp/RazorPagesApp.csproj",
+      "packagesPath": "/home/runner/.nuget/packages/",
+      "outputPath": "/home/runner/work/BackendTasks/BackendTasks/RazorPagesApp/RazorPagesApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/asmrofficialfinder/.nuget/NuGet/NuGet.Config"
+        "/home/runner/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -3521,6 +3521,7 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {}
         }
@@ -3535,10 +3536,11 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net10.0": {
+        "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
           "AppSettingsMultiPlatformPackage": {
@@ -3579,7 +3581,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.300/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

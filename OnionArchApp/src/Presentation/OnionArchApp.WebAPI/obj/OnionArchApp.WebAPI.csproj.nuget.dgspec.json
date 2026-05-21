@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Presentation/OnionArchApp.WebAPI/OnionArchApp.WebAPI.csproj": {}
+    "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Presentation/OnionArchApp.WebAPI/OnionArchApp.WebAPI.csproj": {}
   },
   "projects": {
-    "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Application/OnionArchApp.Application.csproj": {
+    "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Core/OnionArchApp.Application/OnionArchApp.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Application/OnionArchApp.Application.csproj",
+        "projectUniqueName": "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Core/OnionArchApp.Application/OnionArchApp.Application.csproj",
         "projectName": "OnionArchApp.Application",
-        "projectPath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Application/OnionArchApp.Application.csproj",
-        "packagesPath": "/Users/asmrofficialfinder/.nuget/packages/",
-        "outputPath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Application/obj/",
+        "projectPath": "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Core/OnionArchApp.Application/OnionArchApp.Application.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Core/OnionArchApp.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/asmrofficialfinder/.nuget/NuGet/NuGet.Config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -24,10 +24,11 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Domain/OnionArchApp.Domain.csproj": {
-                "projectPath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Domain/OnionArchApp.Domain.csproj"
+              "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Core/OnionArchApp.Domain/OnionArchApp.Domain.csproj": {
+                "projectPath": "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Core/OnionArchApp.Domain/OnionArchApp.Domain.csproj"
               }
             }
           }
@@ -42,10 +43,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "AutoMapper": {
@@ -85,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.300/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -363,17 +365,17 @@
         }
       }
     },
-    "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Domain/OnionArchApp.Domain.csproj": {
+    "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Core/OnionArchApp.Domain/OnionArchApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Domain/OnionArchApp.Domain.csproj",
+        "projectUniqueName": "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Core/OnionArchApp.Domain/OnionArchApp.Domain.csproj",
         "projectName": "OnionArchApp.Domain",
-        "projectPath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Domain/OnionArchApp.Domain.csproj",
-        "packagesPath": "/Users/asmrofficialfinder/.nuget/packages/",
-        "outputPath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Domain/obj/",
+        "projectPath": "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Core/OnionArchApp.Domain/OnionArchApp.Domain.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Core/OnionArchApp.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/asmrofficialfinder/.nuget/NuGet/NuGet.Config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -383,6 +385,7 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -397,10 +400,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -418,7 +422,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.300/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -696,17 +700,17 @@
         }
       }
     },
-    "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Infrastructure/OnionArchApp.Infrastructure.csproj": {
+    "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Infrastructure/OnionArchApp.Infrastructure/OnionArchApp.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Infrastructure/OnionArchApp.Infrastructure.csproj",
+        "projectUniqueName": "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Infrastructure/OnionArchApp.Infrastructure/OnionArchApp.Infrastructure.csproj",
         "projectName": "OnionArchApp.Infrastructure",
-        "projectPath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Infrastructure/OnionArchApp.Infrastructure.csproj",
-        "packagesPath": "/Users/asmrofficialfinder/.nuget/packages/",
-        "outputPath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Infrastructure/obj/",
+        "projectPath": "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Infrastructure/OnionArchApp.Infrastructure/OnionArchApp.Infrastructure.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Infrastructure/OnionArchApp.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/asmrofficialfinder/.nuget/NuGet/NuGet.Config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -716,6 +720,7 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -730,10 +735,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.Extensions.Configuration.Abstractions": {
@@ -757,7 +763,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.300/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1035,17 +1041,17 @@
         }
       }
     },
-    "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Persistance/OnionArchApp.Persistance.csproj": {
+    "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Infrastructure/OnionArchApp.Persistance/OnionArchApp.Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Persistance/OnionArchApp.Persistance.csproj",
+        "projectUniqueName": "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Infrastructure/OnionArchApp.Persistance/OnionArchApp.Persistance.csproj",
         "projectName": "OnionArchApp.Persistance",
-        "projectPath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Persistance/OnionArchApp.Persistance.csproj",
-        "packagesPath": "/Users/asmrofficialfinder/.nuget/packages/",
-        "outputPath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Persistance/obj/",
+        "projectPath": "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Infrastructure/OnionArchApp.Persistance/OnionArchApp.Persistance.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Infrastructure/OnionArchApp.Persistance/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/asmrofficialfinder/.nuget/NuGet/NuGet.Config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -1055,10 +1061,11 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Application/OnionArchApp.Application.csproj": {
-                "projectPath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Core/OnionArchApp.Application/OnionArchApp.Application.csproj"
+              "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Core/OnionArchApp.Application/OnionArchApp.Application.csproj": {
+                "projectPath": "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Core/OnionArchApp.Application/OnionArchApp.Application.csproj"
               }
             }
           }
@@ -1073,10 +1080,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
@@ -1100,7 +1108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.300/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1378,17 +1386,17 @@
         }
       }
     },
-    "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Presentation/OnionArchApp.WebAPI/OnionArchApp.WebAPI.csproj": {
+    "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Presentation/OnionArchApp.WebAPI/OnionArchApp.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Presentation/OnionArchApp.WebAPI/OnionArchApp.WebAPI.csproj",
+        "projectUniqueName": "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Presentation/OnionArchApp.WebAPI/OnionArchApp.WebAPI.csproj",
         "projectName": "OnionArchApp.WebAPI",
-        "projectPath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Presentation/OnionArchApp.WebAPI/OnionArchApp.WebAPI.csproj",
-        "packagesPath": "/Users/asmrofficialfinder/.nuget/packages/",
-        "outputPath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Presentation/OnionArchApp.WebAPI/obj/",
+        "projectPath": "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Presentation/OnionArchApp.WebAPI/OnionArchApp.WebAPI.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Presentation/OnionArchApp.WebAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/asmrofficialfinder/.nuget/NuGet/NuGet.Config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -1398,13 +1406,14 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Infrastructure/OnionArchApp.Infrastructure.csproj": {
-                "projectPath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Infrastructure/OnionArchApp.Infrastructure.csproj"
+              "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Infrastructure/OnionArchApp.Infrastructure/OnionArchApp.Infrastructure.csproj": {
+                "projectPath": "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Infrastructure/OnionArchApp.Infrastructure/OnionArchApp.Infrastructure.csproj"
               },
-              "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Persistance/OnionArchApp.Persistance.csproj": {
-                "projectPath": "/Users/asmrofficialfinder/Documents/CodeAcademyHW/TasksBackend/OnionArchApp/src/Infrastructure/OnionArchApp.Persistance/OnionArchApp.Persistance.csproj"
+              "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Infrastructure/OnionArchApp.Persistance/OnionArchApp.Persistance.csproj": {
+                "projectPath": "/home/runner/work/BackendTasks/BackendTasks/OnionArchApp/src/Infrastructure/OnionArchApp.Persistance/OnionArchApp.Persistance.csproj"
               }
             }
           }
@@ -1419,10 +1428,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "AppSettingsMultiPlatformPackage": {
@@ -1461,7 +1471,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.300/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
